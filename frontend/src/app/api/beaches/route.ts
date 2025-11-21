@@ -84,27 +84,31 @@ export async function GET(request: NextRequest) {
     const isDevelopment = process.env.NODE_ENV !== "production";
 
     if (!isDevelopment) {
-      const allowedOrigins = [process.env.NEXT_PUBLIC_SITE_URL].filter(
-        (url): url is string => Boolean(url)
-      );
+      const origin = request.headers.get("origin");
+      const url = new URL(request.url);
 
-      const isAllowedOrigin =
-        origin &&
-        allowedOrigins.some(
-          (allowed) => origin === allowed || origin.startsWith(allowed)
-        );
+      // ✅ Permitir same-origin (peticiones internas Next.js)
+      const isSameOrigin = !origin || origin === url.origin;
 
-      const isAllowedReferer =
-        referer &&
-        allowedOrigins.some((allowed) => referer.startsWith(allowed));
+      // ✅ Lista blanca de dominios externos permitidos
+      const allowedOrigins = [
+        "https://www.malagapets.com",
+        "https://malagapets.com",
+      ];
 
-      if (!isAllowedOrigin && !isAllowedReferer) {
-        console.warn(
-          `🔒 Blocked request from unauthorized origin: ${origin || referer || "unknown"}`
-        );
+      const isAllowedExternal = origin && allowedOrigins.includes(origin);
+
+      if (!isSameOrigin && !isAllowedExternal) {
+        console.warn(`🔒 Blocked unauthorized origin: ${origin || "unknown"}`);
         return NextResponse.json(
-          { error: "Forbidden - Invalid origin" },
-          { status: 403 }
+          { error: "Forbidden" },
+          {
+            status: 403,
+            headers: {
+              "X-Content-Type-Options": "nosniff",
+              "X-Frame-Options": "DENY",
+            },
+          }
         );
       }
     }
