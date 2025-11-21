@@ -49,3 +49,9 @@ node_modules/
 /playwright/.cache/
 test-results/
 test-resend.js
+
+#Testing
+e2e*
+
+# Deployment md
+DEPLOYMENT.md
