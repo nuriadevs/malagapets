@@ -37,7 +37,6 @@ $RECYCLE.BIN/
 ############################
 
 *.7z
-*.csv
 *.dat
 *.dmg
 *.gz
@@ -66,10 +65,14 @@ $RECYCLE.BIN/
 ############################
 
 .tmp
+.tmp/**
 *.log
 *.sql
 *.sqlite
 *.sqlite3
+*.db
+*.db-*
+.data.db
 
 
 ############################
@@ -80,10 +83,9 @@ $RECYCLE.BIN/
 ssl
 .idea
 nbproject
-public/uploads/*
-!public/uploads/.gitkeep
 .tsbuildinfo
 .eslintcache
+
 
 ############################
 # Node.js
@@ -96,6 +98,7 @@ logs
 results
 node_modules
 .node_history
+
 
 ############################
 # Package managers
@@ -110,6 +113,8 @@ node_modules
 !.yarn/versions
 .pnp.*
 yarn-error.log
+package-lock.json
+
 
 ############################
 # Tests
@@ -117,27 +122,57 @@ yarn-error.log
 
 coverage
 
+
 ############################
 # Strapi
 ############################
 
+# Environments
 .env
 .env.production
 .env.development
 .env.test
-.env.example
 .env.*.local
 .env.local
-.env.production.local
-.env.development.local
-.env.test.local
-license.txt
-exports
+
+# Builds (Strapi Cloud los regenera)
 .strapi
+.strapi/**
 dist
 build
 .strapi-updater.json
 .strapi-cloud.json
 
+# Exports
+exports
+license.txt
 
+# Documentation auto-generada
 docs
+
+
+############################
+# Uploads - IMPORTANTE
+############################
+
+# Para Strapi Cloud se recomienda usar proveedor externo
+# pero si usas uploads locales en dev:
+public/uploads/*
+!public/uploads/.gitkeep
+
+
+############################
+# Backups - NO SUBIR
+############################
+
+backups/
+*-backup/
+*.backup*
+data/
+
+
+############################
+# CSVs con datos sensibles
+############################
+
+*.csv
