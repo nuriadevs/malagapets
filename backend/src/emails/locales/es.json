@@ -1,0 +1,125 @@
+{
+    "confirmation": {
+        "preview": "¡Solo falta un clic para unirte a MálagaPets! 🐾",
+        "hero": {
+            "emoji": "🐾",
+            "title": "¡Un paso más para unirte!",
+            "subtitle": "Confirma tu suscripción a MálagaPets"
+        },
+        "greeting": "¡Hola {{name}}! 👋",
+        "intro": "¡Qué alegría saber que quieres formar parte de nuestra comunidad de mascotas! Gracias por tu interés en MálagaPets.",
+        "callout": "Para empezar a recibir nuestros emails, necesitas confirmar tu suscripción.",
+        "description": "Una vez confirmada, recibirás noticias de nuestra plataforma y notificaciones cuando publiquemos nuevos artículos en nuestro blog sobre mascotas en Málaga.",
+        "cta": {
+            "button": "✓ Confirmar mi suscripción",
+            "helper": "Haz clic para completar tu registro"
+        },
+        "alternative": {
+            "title": "¿No puedes ver el botón?",
+            "text": "Copia y pega este enlace:"
+        },
+        "warnings": {
+            "expiration": "⏰ Este enlace expirará en 24 horas por seguridad.",
+            "preferences": "💡 Nota: Podrás gestionar tus preferencias de email en cualquier momento desde los enlaces que incluiremos en nuestros envíos."
+        },
+        "benefits": {
+            "title": "¿Qué recibirás al confirmar? 📬",
+            "items": [
+                "✓ Novedades y actualizaciones de la plataforma",
+                "✓ Nuevos artículos sobre cuidado de mascotas",
+                "✓ Guías de lugares pet-friendly en Málaga"
+            ]
+        },
+        "footer": {
+            "signature": "Con cariño de mascotas 💚",
+            "team": "El equipo de MálagaPets",
+            "disclaimer": "Si no solicitaste esta suscripción, puedes ignorar este email de forma segura.",
+            "copyright": "© {{year}} MálagaPets. Todos los derechos reservados."
+        }
+    },
+    "welcome": {
+        "preview": "¡Ya eres parte de MálagaPets! Descubre todo lo que tenemos para ti 🐾",
+        "hero": {
+            "title": "¡Bienvenido/a a MálagaPets!",
+            "subtitle": "Tu aventura mascota comienza aquí 🐾"
+        },
+        "greeting": "¡Hola {{name}}! 👋",
+        "intro": "Oficialmente ya formas parte de nuestra familia de mascotas. Gracias por confirmar tu suscripción. Estamos emocionados de compartir contigo todo lo mejor del mundo de las mascotas en Málaga.",
+        "benefits": {
+            "title": "¿Qué puedes esperar de nosotros?",
+            "platform": {
+                "title": "📧 Noticias de la plataforma",
+                "description": "Mantente al día con novedades, actualizaciones y mejoras exclusivas"
+            },
+            "articles": {
+                "title": "📝 Artículos y consejos",
+                "description": "Historias inspiradoras y guías prácticas para cuidar mejor de tu mascota"
+            },
+            "maps": {
+                "title": "🗺️ Mapas y guías locales",
+                "description": "Descubre los mejores lugares pet-friendly de Málaga"
+            }
+        },
+        "cta": "Explorar MálagaPets",
+        "community": {
+            "title": "¡Únete a nuestra comunidad! 🎉",
+            "description": "Síguenos en redes sociales para contenido diario y conecta con otros amantes de mascotas de Málaga",
+            "button": "📱 Síguenos en Instagram"
+        },
+        "footer": {
+            "signature": "¡Que comience la diversión! 🐾",
+            "team": "El equipo de MálagaPets",
+            "unsubscribe": "Si deseas cancelar tu suscripción, puedes hacerlo",
+            "unsubscribeLink": "aquí",
+            "copyright": "© {{year}} MálagaPets. Todos los derechos reservados."
+        }
+    },
+    "unsubscribe": {
+        "preview": "Tu suscripción a MálagaPets ha sido cancelada - ¡Gracias por acompañarnos!",
+        "hero": {
+            "emoji": "🐾",
+            "title": "Te echaremos de menos",
+            "subtitle": "Confirmación de baja de suscripción"
+        },
+        "greeting": "Hola {{name}},",
+        "intro": "Hemos procesado tu solicitud de baja y tu suscripción a MálagaPets ha sido cancelada exitosamente. Ya no recibirás más emails de nuestra parte.",
+        "details": {
+            "title": "Detalles de la baja",
+            "email": "📧 Email:",
+            "date": "📅 Fecha:",
+            "effective": "⏰ Efectiva: Inmediatamente"
+        },
+        "feedback": {
+            "title": "¿Nos ayudas a mejorar? 💭",
+            "description": "Tu opinión es muy valiosa para nosotros. Si tienes un minuto, nos encantaría saber qué podríamos haber hecho mejor.",
+            "button": "Enviar comentarios"
+        },
+        "stayConnected": {
+            "title": "¡Pero no te vayas del todo! 💚",
+            "description": "Aunque ya no recibas nuestros emails, siempre puedes:",
+            "blog": "🌐 Visitar nuestro",
+            "blogLink": "blog",
+            "blogText": "cuando quieras",
+            "social": "📱 Seguirnos en",
+            "socialLink": "Instagram"
+        },
+        "resubscribe": {
+            "title": "¿Cambio de planes? 🔄",
+            "description": "Puedes volver cuando quieras. Siempre serás bienvenido.",
+            "button": "Volver a suscribirme"
+        },
+        "footer": {
+            "thankYou": "Gracias por haber formado parte de nuestra familia 💚",
+            "goodbye": "¡Hasta pronto!",
+            "team": "El equipo de MálagaPets",
+            "errorText": "Si esta baja fue un error, puedes",
+            "errorLink": "contactarnos",
+            "copyright": "© {{year}} MálagaPets. Todos los derechos reservados."
+        }
+    },
+    "subjects": {
+        "confirmation": "✉️ Confirma tu suscripción",
+        "welcome": "🎉 ¡Bienvenido a nuestra newsletter!",
+        "unsubscribe": "👋 Te echaremos de menos"
+    }
+}

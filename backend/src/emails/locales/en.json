@@ -1,0 +1,125 @@
+{
+    "confirmation": {
+        "preview": "Just one click to join MálagaPets! 🐾",
+        "hero": {
+            "emoji": "🐾",
+            "title": "One more step to join!",
+            "subtitle": "Confirm your subscription to MálagaPets"
+        },
+        "greeting": "Hello {{name}}! 👋",
+        "intro": "We're thrilled to know you want to be part of our pet community! Thank you for your interest in MálagaPets.",
+        "callout": "To start receiving our emails, you need to confirm your subscription.",
+        "description": "Once confirmed, you'll receive news from our platform and notifications when we publish new articles on our pet blog in Málaga.",
+        "cta": {
+            "button": "✓ Confirm my subscription",
+            "helper": "Click to complete your registration"
+        },
+        "alternative": {
+            "title": "Can't see the button?",
+            "text": "Copy and paste this link:"
+        },
+        "warnings": {
+            "expiration": "⏰ This link will expire in 24 hours for security.",
+            "preferences": "💡 Note: You can manage your email preferences at any time from the links we'll include in our emails."
+        },
+        "benefits": {
+            "title": "What will you receive upon confirmation? 📬",
+            "items": [
+                "✓ Platform news and updates",
+                "✓ New articles about pet care",
+                "✓ Guides to pet-friendly places in Málaga"
+            ]
+        },
+        "footer": {
+            "signature": "With love from pets 💚",
+            "team": "The MálagaPets Team",
+            "disclaimer": "If you didn't request this subscription, you can safely ignore this email.",
+            "copyright": "© {{year}} MálagaPets. All rights reserved."
+        }
+    },
+    "welcome": {
+        "preview": "You're now part of MálagaPets! Discover everything we have for you 🐾",
+        "hero": {
+            "title": "Welcome to MálagaPets!",
+            "subtitle": "Your pet adventure starts here 🐾"
+        },
+        "greeting": "Hello {{name}}! 👋",
+        "intro": "You're officially part of our pet family. Thank you for confirming your subscription. We're excited to share the best of the pet world in Málaga with you.",
+        "benefits": {
+            "title": "What can you expect from us?",
+            "platform": {
+                "title": "📧 Platform News",
+                "description": "Stay up to date with news, updates, and exclusive improvements"
+            },
+            "articles": {
+                "title": "📝 Articles and Tips",
+                "description": "Inspiring stories and practical guides to better care for your pet"
+            },
+            "maps": {
+                "title": "🗺️ Local Maps and Guides",
+                "description": "Discover the best pet-friendly places in Málaga"
+            }
+        },
+        "cta": "Explore MálagaPets",
+        "community": {
+            "title": "Join our community! 🎉",
+            "description": "Follow us on social media for daily content and connect with other pet lovers in Málaga",
+            "button": "📱 Follow us on Instagram"
+        },
+        "footer": {
+            "signature": "Let the fun begin! 🐾",
+            "team": "The MálagaPets Team",
+            "unsubscribe": "If you wish to cancel your subscription, you can do so",
+            "unsubscribeLink": "here",
+            "copyright": "© {{year}} MálagaPets. All rights reserved."
+        }
+    },
+    "unsubscribe": {
+        "preview": "Your MálagaPets subscription has been cancelled - Thanks for joining us!",
+        "hero": {
+            "emoji": "🐾",
+            "title": "We'll miss you",
+            "subtitle": "Unsubscribe confirmation"
+        },
+        "greeting": "Hello {{name}},",
+        "intro": "We've processed your unsubscribe request and your MálagaPets subscription has been successfully cancelled. You will no longer receive emails from us.",
+        "details": {
+            "title": "Unsubscribe Details",
+            "email": "📧 Email:",
+            "date": "📅 Date:",
+            "effective": "⏰ Effective: Immediately"
+        },
+        "feedback": {
+            "title": "Help us improve? 💭",
+            "description": "Your opinion is very valuable to us. If you have a minute, we'd love to know what we could have done better.",
+            "button": "Send feedback"
+        },
+        "stayConnected": {
+            "title": "But don't go completely! 💚",
+            "description": "Even though you won't receive our emails, you can always:",
+            "blog": "🌐 Visit our",
+            "blogLink": "blog",
+            "blogText": "whenever you want",
+            "social": "📱 Follow us on",
+            "socialLink": "Instagram"
+        },
+        "resubscribe": {
+            "title": "Change of plans? 🔄",
+            "description": "You can come back whenever you want. You're always welcome.",
+            "button": "Subscribe again"
+        },
+        "footer": {
+            "thankYou": "Thanks for being part of our family 💚",
+            "goodbye": "See you soon!",
+            "team": "The MálagaPets Team",
+            "errorText": "If this was a mistake, you can",
+            "errorLink": "contact us",
+            "copyright": "© {{year}} MálagaPets. All rights reserved."
+        }
+    },
+    "subjects": {
+        "confirmation": "✉️ Confirm your subscription",
+        "welcome": "🎉 Welcome to our newsletter!",
+        "unsubscribe": "👋 We will miss you"
+    }
+}

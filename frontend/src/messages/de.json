@@ -1,0 +1,1116 @@
+{
+  "app": {
+    "title": "MálagaPets"
+  },
+  "metadata": {
+    "title": "MálagaPets - Vollständiger Leitfaden für Haustiere in Málaga",
+    "description": "Ihr vollständiger Leitfaden für Haustiere in Málaga: Finden Sie Hundeparks, Tierkliniken, Notfallkliniken, Pflegetipps und haustierfreundliche Ressourcen in Ihrer Nähe.",
+    "keywords": "hundeparks malaga, tierkliniken malaga, tierärztliche notfallkliniken malaga, haustier leitfaden malaga, hundezonen malaga, tierärztliche notfälle malaga, haustierräume malaga, hundeparks malaga, haustierfreundlich malaga, haustier blog, hundepflege malaga, tierärztliche dienste malaga, hundeparks karten, tierarzt verzeichnis malaga, stadtverwaltung málaga haustiere, hunde erholungsgebiete, tierärztliche versorgung malaga, haustier ratschläge, haustier ressourcen malaga",
+    "authors": [
+      {
+        "name": "Nuria",
+        "url": "https://nuriavazquez.dev"
+      }
+    ],
+    "creator": "Nuria Vázquez",
+    "publisher": "Nuria Vázquez",
+    "formatDetection": {
+      "email": false,
+      "address": false,
+      "telephone": false
+    },
+    "guides": {
+      "parks": {
+        "title": "Leitfaden für Hundeparks in Málaga",
+        "description": "Vollständiges Verzeichnis der offiziellen Hundeparks in Málaga mit detaillierten Informationen: Standort, Größe, Zugänglichkeit, Öffnungszeiten und verfügbare Dienste.",
+        "keywords": "hundeparks malaga, hundeparks leitfaden, pipican verzeichnis malaga, hundezonen malaga, hundegebiete malaga, offizielle hundeparks, hundeparks málaga leitfaden, hunde erholungsgebiete málaga"
+      },
+      "vets": {
+        "title": "Leitfaden für Tierkliniken in Málaga",
+        "description": "Offizielles Verzeichnis der Tierkliniken und Krankenhäuser in Málaga. Finden Sie tierärztliche Dienste, 24-Stunden-Notfälle, Spezialisten und Pflege für Ihre Haustiere.",
+        "keywords": "tierkliniken malaga, tierkrankenhäuser malaga, tierarzt verzeichnis, tierärztliche notfälle malaga, tierärzte 24 stunden malaga, tierärztliche dienste malaga, haustierpflege malaga"
+      }
+    },
+    "maps": {
+      "parks": {
+        "title": "Interaktive Karte der Hundeparks in Málaga",
+        "description": "Interaktive Karte mit allen offiziellen Hundeparks in Málaga. Sehen Sie Standorte, Routen und finden Sie den nächstgelegenen Park für Ihren Hund.",
+        "keywords": "hundeparks karte malaga, hundeparks lokalisieren malaga, pipican standort malaga, interaktive hundeparks karte, wo sind hundeparks malaga, hundeparks in der nähe suchen"
+      },
+      "vets": {
+        "title": "Karte der Tierkliniken in Málaga",
+        "description": "Interaktive Karte mit allen Tierkliniken und Krankenhäusern in Málaga. Finden Sie das nächstgelegene tierärztliche Zentrum und Notfalldienste.",
+        "keywords": "tierärzte karte malaga, tierkliniken lokalisieren malaga, tierärzte in meiner nähe malaga, tierkrankenhäuser karte, tierärztliche notfälle karte malaga, tierarzt finden malaga"
+      }
+    },
+    "about": {
+      "title": "Über MálagaPets - Unser Projekt",
+      "description": "Lernen Sie MálagaPets kennen: ein Projekt, das das Leben von Haustierbesitzern in Málaga erleichtern soll, mit verifizierten Informationen über Hundeparks, Tierärzte und nützliche Ressourcen.",
+      "keywords": "über malagapets, haustier projekt malaga, wer wir sind, málaga offene daten haustiere, haustier informationen malaga, haustier gemeinschaft malaga"
+    },
+    "blog": {
+      "title": "Haustier-Blog - Tipps und Ressourcen | MálagaPets",
+      "description": "Artikel, Tipps und Leitfäden zur Haustierpflege: Gesundheit, Ernährung, Verhalten, Training und Ressourcen für verantwortungsbewusste Besitzer in Málaga.",
+      "keywords": "haustier blog malaga, hunde katzen ratschläge, haustierpflege, tiergesundheit, haustier ernährung, hundetraining, haustier verhalten, haustier leitfäden malaga"
+    },
+    "category": {
+      "suffix": "MálagaPets Blog",
+      "defaultDescription": "Artikel und Ressourcen über {name} zur Pflege Ihrer Haustiere in Málaga"
+    }
+  },
+  "theme": {
+    "toggleTheme": "Thema wechseln",
+    "options": [
+      {
+        "key": "light",
+        "label": "Hell",
+        "value": "light"
+      },
+      {
+        "key": "dark",
+        "label": "Dunkel",
+        "value": "dark"
+      },
+      {
+        "key": "system",
+        "label": "System",
+        "value": "system"
+      }
+    ]
+  },
+  "accessibility": {
+    "fontSize": {
+      "accessibilityOptions": "Barrierefreiheitsoptionen",
+      "textSize": "Textgröße",
+      "decreaseText": "Textgröße verringern",
+      "increaseText": "Textgröße erhöhen",
+      "reset": "Zurücksetzen",
+      "currentTextSize": "Textgröße: {size}%"
+    },
+    "main": {
+      "homeContent": "Startseite",
+      "parksMaps": "Karte der Hundeparks in Málaga",
+      "parksCardsContent": "Leitfaden für Hundeparks in Málaga",
+      "vetsCardsContent": "Leitfaden für Tierkliniken und Krankenhäuser in Málaga",
+      "beachesCardsContent": "Leitfaden für hundefreundliche Strände in Málaga",
+      "vetsMaps": "Karte der Tierkliniken und Krankenhäuser in Málaga",
+      "beachesMaps": "Karte der Hundestrände in Málaga und Umgebung",
+      "aboutContent": "Informationen über das Projekt",
+      "postSingle": "Blog-Artikel",
+      "archive": "Blog-Archiv",
+      "contactContent": "Kontaktformular",
+      "authorContent": "Autor des Artikels",
+      "categoryContent": "Kategorien der Artikel",
+      "legalContent": "Rechtliche Dokumente"
+    },
+    "footer": {
+      "footerLabel": "Fußzeile",
+      "mainLinksNav": "Hauptlinks",
+      "socialNav": "Soziale Medien",
+      "loveLabel": "Liebe",
+      "followUs": "Folgen Sie uns auf:"
+    },
+    "header": {
+      "headerLabel": "Haupt-Seitenkopf",
+      "logoLabel": "MálagaPets - Zur Startseite gehen",
+      "navigationToolbar": "Navigations- und Einstellungssteuerungen"
+    },
+    "settingsPanel": {
+      "openSettings": "Barrierefreiheitseinstellungen und Präferenzen öffnen",
+      "closeSettings": "Einstellungen schließen",
+      "settingsTitle": "Einstellungen",
+      "settingsDescription": "Passen Sie Ihr Surferlebnis an",
+      "textSizeFieldset": "Textgröße",
+      "themeFieldset": "Anwendungsthema",
+      "textLanguage": "Sprache auswählen",
+      "settingsNote": "Diese Einstellungen werden in Ihrem Browser gespeichert",
+      "overlayLabel": "Hintergrund des Einstellungsdialogs"
+    },
+    "cookies": {
+      "policyCookiesLink": "Vollständige Cookie-Richtlinie lesen",
+      "policyPrivacyLink": "Datenschutzrichtlinie lesen",
+      "rejectOptionalButton": "Optionale Cookies ablehnen und nur notwendige behalten",
+      "configureButton": "Benutzerdefinierte Cookie-Präferenzen konfigurieren",
+      "acceptAllButton": "Alle Cookies einschließlich Analyse und Marketing akzeptieren",
+      "backButton": "Zurück zum Hauptpanel ohne Änderungen zu speichern",
+      "savePreferencesButton": "Ausgewählte Cookie-Präferenzen speichern"
+    },
+    "notFound": {
+      "main": "Hauptinhalt",
+      "errorState": "Seite nicht gefunden Status",
+      "warningIcon": "Warnsymbol",
+      "backToHome": "Zurück zur Startseite",
+      "searchSite": "Website durchsuchen",
+      "helpSection": "Hilfebereich",
+      "navigationHelp": "Navigationshilfe",
+      "suggestions": "Vorschläge"
+    },
+    "loading": {
+      "main": "Hauptinhalt",
+      "loadingStatus": "Inhalt wird geladen",
+      "loadingProgress": "Ladefortschritt",
+      "loadingText": "Ladeinformationen",
+      "additionalInfo": "Zusätzliche Ladeinformationen"
+    },
+    "error": {
+      "main": "Hauptinhalt",
+      "errorState": "Fehlerstatus",
+      "warningIcon": "Warnsymbol",
+      "technicalDetails": "Technische Fehlerdetails",
+      "errorDetails": "Fehlerdetails",
+      "availableActions": "Verfügbare Aktionen",
+      "retryAction": "Erneut versuchen",
+      "backToHome": "Zurück zur Startseite",
+      "helpSection": "Hilfebereich",
+      "suggestions": "Vorschläge"
+    },
+    "vets-guides": {
+      "name": "Verzeichnis der tierärztlichen Zentren in Málaga",
+      "loading": "Tierärztliche Zentren werden geladen",
+      "centersList": "Liste der verfügbaren tierärztlichen Zentren",
+      "paginationAriaLabel": "Seitennavigation der tierärztlichen Zentren"
+    },
+    "parks-guides": {
+      "name": "Verzeichnis der Hundeparks in Málaga",
+      "loading": "Hundeparks werden geladen",
+      "centersList": "Liste der verfügbaren Hundeparks",
+      "paginationAriaLabel": "Seitennavigation der Hundeparks"
+    },
+    "beaches-guides": {
+      "name": "Verzeichnis der Strände in Málaga",
+      "loading": "Strände werden geladen",
+      "centersList": "Liste der verfügbaren Strände",
+      "paginationAriaLabel": "Seitennavigation der Strände"
+    },
+    "card": {
+      "viewOnMaps": "Auf Google Maps anzeigen"
+    },
+    "blog": {
+      "heroHeading": "Blog-Hauptseite",
+      "latestPosts": "Neueste Blog-Artikel"
+    },
+    "categories": {
+      "main": "Blog-Kategorien Hauptseite",
+      "categoriesList": "Liste der Blog-Kategorien"
+    },
+    "pagination": {
+      "pagination": "Seitennavigation",
+      "previousPage": "Vorherige Seite",
+      "nextPage": "Nächste Seite"
+    },
+    "search": {
+      "title": "Im Blog suchen",
+      "subtitle": "Finden Sie Artikel, die Sie interessieren"
+    },
+    "newsletter": {
+      "title": "Newsletter-Abonnement",
+      "description": "Blog-Newsletter-Abonnementformular"
+    },
+    "category": {
+      "main": "Blog-Kategorieseite",
+      "postsInCategory": "Artikel in der Kategorie"
+    },
+    "contact": {
+      "main": "Kontaktseite",
+      "contactForm": "Kontaktformular"
+    },
+    "sharePost": {
+      "shareFacebook": "Artikel auf Facebook teilen",
+      "shareLinkedIn": "Artikel auf LinkedIn teilen",
+      "shareWhatsApp": "Artikel auf WhatsApp teilen",
+      "shareTelegram": "Artikel auf Telegram teilen"
+    }
+  },
+  "search": {
+    "title": "Suchergebnisse",
+    "subtitle": "Finden Sie genau das, was Sie in unserer Wissensdatenbank benötigen",
+    "resultsFor": "Ergebnisse für \"{query}\"",
+    "resultsCount": "{count} {articles} gefunden",
+        "searchTerm": "Suchbegriffe",
+    "article": "Artikel",
+    "articles": "Artikel",
+    "form": {
+      "placeholder": "Beiträge nach Namen suchen...",
+      "ariaLabel": "Blog-Suchformular",
+      "inputAriaLabel": "Blog-Inhalte durchsuchen",
+      "clearAriaLabel": "Suche löschen"
+    },
+    "emptyState": {
+      "title": "Geben Sie einen Suchbegriff ein",
+      "description": "Beiträge, Tags und Autoren suchen"
+    },
+    "noResults": {
+      "title": "Keine Ergebnisse gefunden",
+      "description": "Versuchen Sie es mit anderen Schlüsselwörtern"
+    }
+  },
+  "blog": {
+    "content": {
+      "latest": {
+        "title": "Neueste Beiträge",
+        "subtitle": "Entdecken Sie die neuesten Nachrichten, Tipps und Trends in der Haustierpflege"
+      },
+      "category": {
+        "title": "Nach Kategorie durchsuchen",
+        "subtitle": "Finden Sie spezifische Inhalte, organisiert nach Themen, die Sie interessieren"
+      },
+      "search": {
+        "title": "Suchergebnisse",
+        "subtitle": "Finden Sie genau das, was Sie in unserer Wissensdatenbank benötigen"
+      },
+      "archive": {
+        "title": "Blog-Bibliothek",
+        "subtitle": "Unsere gesamte Inhaltsbibliothek an einem Ort"
+      },
+      "author": {
+        "name": "Autor",
+        "resultsCount": "in diesem Autor",
+        "allArticles": "Alle Artikel von "
+      },
+      "heroTitle": "Willkommen in unserem Blog",
+      "heroSubtitle": "Entdecken Sie exklusive Inhalte und bleiben Sie auf dem Laufenden",
+      "blogSectionTitle": "Neueste Beiträge",
+      "blogSectionDescription": "Sehen Sie sich unsere neuesten Artikel an",
+      "viewAllPosts": "Alle Beiträge",
+      "lastPost": "Letzter Beitrag",
+      "backToBlog": "Zurück zum Blog",
+      "minReader": "Min. Lesezeit",
+      "noContent": "Keine Artikel verfügbar",
+      "all": "alle"
+    },
+    "category": {
+      "heroTitle": "Nach Kategorie durchsuchen",
+      "heroSubtitle": "Finden Sie Artikel nach Ihren Interessen",
+      "allCategories": "Alle Kategorien",
+      "postsInCategory": "Artikel in der Kategorie '{category}'",
+      "noPosts": "Keine Artikel in dieser Kategorie",
+      "loadMore": "Weitere Artikel laden",
+      "endOfList": "Sie haben das Ende der Liste erreicht",
+      "article": "Artikel",
+      "articles": "Artikel",
+      "resultsCount": "in dieser Kategorie"
+    },
+    "card": {
+      "readProfile": "Profil anzeigen"
+    },
+    "newsletter": {
+      "title": "Newsletter abonnieren",
+      "description": "Geben Sie Ihren Namen und Ihre E-Mail ein, um Benachrichtigungen zu erhalten, wenn wir neue Inhalte veröffentlichen",
+      "privacy": {
+        "text": "Durch das Abonnieren stimmen Sie unserer",
+        "link": "Datenschutzrichtlinie"
+      },
+      "form": {
+        "namePlaceholder": "Ihr Name (optional)",
+        "emailPlaceholder": "Geben Sie Ihre E-Mail ein",
+        "submitButton": "Abonnieren",
+        "submittingButton": "Wird gesendet..."
+      },
+      "messages": {
+        "SUBSCRIPTION_CREATED": "Danke! Wir haben dir eine Bestätigungs-E-Mail gesendet. Überprüfe deinen Posteingang oder deinen Spam-Ordner.",
+        "PENDING_CONFIRMATION": "Sie haben eine ausstehende Anmeldung. Wir haben die Bestätigungs-E-Mail erneut gesendet.",
+        "REACTIVATED": "Wir haben die Bestätigungs-E-Mail erneut gesendet, um Ihre Anmeldung zu reaktivieren.",
+        "CONFIRMED": "Anmeldung erfolgreich bestätigt!",
+        "ALREADY_CONFIRMED": "Ihre Anmeldung war bereits bestätigt.",
+        "UNSUBSCRIBED": "Sie haben sich erfolgreich abgemeldet. Wir bedauern Ihren Weggang.",
+        "ALREADY_UNSUBSCRIBED": "Sie haben sich bereits abgemeldet.",
+        "emptyEmail": "Bitte geben Sie eine E-Mail-Adresse ein",
+        "emptyName": "Bitte geben Sie Ihren Namen ein",
+        "invalidEmail": "Das E-Mail-Format ist ungültig",
+        "alreadySubscribed": "Diese E-Mail ist bereits angemeldet",
+        "error": "Fehler bei der Verarbeitung der Anmeldung"
+      }
+    },
+    "sharePost": {
+      "shareText": "Diesen Artikel teilen:"
+    }
+  },
+  "common": {
+    "skipToContent": "Zum Hauptinhalt springen",
+    "close": "Schließen",
+    "open": "Öffnen",
+    "menu": "Menü",
+    "settings": "Einstellungen",
+    "home": "Startseite"
+  },
+  "navigation": {
+    "mainNav": "Hauptnavigation",
+    "currentPage": "(aktuelle Seite)",
+    "home": "Startseite",
+    "maps": "Karten",
+    "parks": "Parks",
+    "veterinary": "Tierärzte",
+    "beaches": "Strände",
+    "guides": "Leitfäden",
+    "blog": "Blog",
+    "allPosts": "Alle Artikel",
+    "categories": "Kategorien",
+    "search": "Suche",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schließen",
+    "menuOpened": "Menü geöffnet",
+    "menuClosed": "Menü geschlossen",
+    "mobileNav": "Mobile Navigation",
+    "links": [
+      {
+        "key": "home",
+        "href": "/",
+        "labelKey": "home"
+      },
+      {
+        "key": "maps",
+        "href": "/maps/parks",
+        "labelKey": "maps",
+        "submenu": [
+          {
+            "key": "parks",
+            "href": "/maps/parks",
+            "labelKey": "parks"
+          },
+          {
+            "key": "veterinary",
+            "href": "/maps/veterinary",
+            "labelKey": "veterinary"
+          },
+          {
+            "key": "beaches",
+            "href": "/maps/beaches",
+            "labelKey": "beaches"
+          }
+        ]
+      },
+      {
+        "key": "guides",
+        "href": "/guides/parks",
+        "labelKey": "guides",
+        "submenu": [
+          {
+            "key": "parks",
+            "href": "/guides/parks",
+            "labelKey": "parks"
+          },
+          {
+            "key": "veterinary",
+            "href": "/guides/veterinary",
+            "labelKey": "veterinary"
+          },
+          {
+            "key": "beaches",
+            "href": "/guides/beaches",
+            "labelKey": "beaches"
+          }
+        ]
+      },
+      {
+        "key": "blog",
+        "href": "/blog",
+        "labelKey": "blog",
+        "submenu": [
+          {
+            "key": "allPosts",
+            "href": "/blog",
+            "labelKey": "allPosts"
+          },
+          {
+            "key": "categories",
+            "href": "/blog/categories",
+            "labelKey": "categories"
+          },
+          {
+            "key": "search",
+            "href": "/blog/search",
+            "labelKey": "search"
+          }
+        ]
+      },
+      {
+        "key": "contact",
+        "href": "/contact",
+        "labelKey": "contact"
+      }
+    ]
+  },
+  "ui": {
+    "theme": {
+      "toggle": "Thema wechseln",
+      "light": "Hell",
+      "dark": "Dunkel",
+      "system": "System"
+    },
+    "accessibility": {
+      "title": "Barrierefreiheitsoptionen",
+      "fontSize": "Textgröße",
+      "reset": "Zurücksetzen",
+      "currentSize": "Textgröße: {size}%"
+    },
+    "language": {
+      "title": "Sprache",
+      "current": "Aktuelle Sprache: {language}"
+    },
+    "settings": {
+      "title": "Einstellungen",
+      "panel": "Einstellungsbereich"
+    }
+  },
+  "homepage": {
+    "title": "MálagaPets",
+    "subtitle": {
+      "part1": "Alles, was Ihre ",
+      "highlight": "Haustiere",
+      "part2": " brauchen: Räume, Dienstleistungen und Gemeinschaft an einem Ort"
+    }
+  },
+  "mission": {
+    "heading": "Unsere Mission",
+    "cards": [
+      {
+        "title": "Tierwohl",
+        "description": "Förderung der Gesundheit, des Glücks und der umfassenden Pflege aller Haustiere in unserer Gemeinschaft"
+      },
+      {
+        "title": "Soziale Verbindung",
+        "description": "Schaffung von Räumen und Dienstleistungen, die Tierliebhaber vereinen und gemeinschaftliche Bindungen stärken"
+      },
+      {
+        "title": "Haustierfreundlich",
+        "description": "Dazu beitragen, Málaga zu einer inklusiveren und einladenderen Stadt für alle Haustiere und ihre Familien zu machen"
+      }
+    ]
+  },
+  "parks": {
+    "title": "Entdecken Sie die besten Orte für Ihr Haustier",
+    "descriptionRich": "Finden Sie <highlight>Hundeparks</highlight>, Spielplätze und <highlight>haustierfreundliche</highlight> Orte in Ihrer Nähe"
+  },
+  "vets": {
+    "title": "Finden Sie tierärztliche Versorgung für Ihr Haustier in Ihrer Nähe",
+    "descriptionRich": "Finden Sie tierärztliche <highlight>Kliniken</highlight>, <highlight>Krankenhäuser</highlight> und Notdienste in Málaga"
+  },
+  "beaches": {
+    "title": "Erkunden Sie die besten Strände für Sie und Ihr Haustier",
+    "descriptionRich": "Entdecken Sie <highlight>haustierfreundliche Strände</highlight>, wo Sie und Ihr Haustier gemeinsam Meer und Sand genießen können"
+  },
+  "parks-guides": {
+    "directoryTitle2": "Hundeparks-Verzeichnis",
+    "mainTitle": "Hundeparks",
+    "subtitle": "in Málaga",
+    "countLabel": "Verfügbare Parks",
+    "sourceInfo": "Aktualisierte Informationen der Stadtverwaltung Málaga",
+    "searchPlaceholder": "Parks nach Namen, Adresse suchen...",
+    "searchLabel": "Hundeparks suchen",
+    "itemName": "Hundepark",
+    "itemNamePlural": "Hundeparks",
+    "noResultsSearch": "Keine Parks gefunden, die Ihrer Suche entsprechen",
+    "loading": "Hundeparks werden geladen..."
+  },
+  "beaches-guides": {
+    "directoryTitle2": "Strandverzeichnis",
+    "mainTitle": "Strände",
+    "subtitle": "in Málaga",
+    "countLabel": "Verfügbare Strände",
+    "sourceInfo": "Aktualisierte Informationen",
+    "searchPlaceholder": "Nach Name oder Gemeinde suchen (z.B.: Málaga, Fuengirola...)",
+    "searchLabel": "Strände suchen",
+    "itemName": "Hundestrand",
+    "itemNamePlural": "Hundestrände",
+    "noResultsSearch": "Keine Strände gefunden, die Ihrer Suche entsprechen",
+    "loading": "Hundestrände werden geladen..."
+  },
+  "data-cards": {
+    "adress": "Standort",
+    "municipality": "Gemeinde",
+    "locality": "Ortschaft",
+    "location": "Adresse",
+    "dimensions": "Abmessungen",
+    "email": "E-Mail",
+    "website": "Webseite",
+    "length": "Länge",
+    "area": "Fläche",
+    "summerSchedule": "Sommer",
+    "winterSchedule": "Winter",
+    "year_round": "Ganzjährig geöffnet",
+    "services": "Dienstleistungen",
+    "certifications": "Zertifizierungen",
+    "highlights": "Highlights",
+    "features": "Eigenschaften",
+    "dogShower": "Hundedusche",
+    "dogShowerShort": "Hundedusche",
+    "waterFountain": "Wasserbrunnen",
+    "waterFountainShort": "Brunnen",
+    "trashBins": "Mülleimer",
+    "trashBinsShort": "Mülleimer",
+    "parking": "Parkplatz",
+    "agilityArea": "Agility-Bereich",
+    "bagDispenser": "Beutelspender",
+    "bagDispenserShort": "Beutel",
+    "phone": {
+      "name": "Telefon",
+      "phones": "Telefone",
+      "landline": "Festnetz",
+      "mobile": "Mobiltelefon",
+      "emergency": "Notfall",
+      "landlineFull": "Festnetztelefon",
+      "mobileFull": "Mobiltelefon"
+    },
+    "schedule": "Zeitplan",
+    "schedules": "Zeitpläne",
+    "openingHours": "Öffnungszeiten",
+    "daysOpen": "Verfügbarkeit",
+    "days": "Tage",
+    "accessibility": "Barrierefreier Zugang",
+    "accessibilityShort": "Barrierefrei",
+    "accessible": "Zugänglich",
+    "notAccessible": "Nicht zugänglich",
+    "fountain": "Brunnen",
+    "available": "Verfügbar",
+    "notAvailableShort": "Nicht verfügbar",
+    "biZone": "Bi-Zone",
+    "description": "Beschreibung",
+    "postalCode": "Postleitzahl",
+    "viewInMaps": "In Google Maps anzeigen",
+    "unknown": "Hundespielplatz ohne Namen",
+    "directionNotAvailable": "Adresse nicht verfügbar",
+    "extensionNotAvailable": "Länge nicht angegeben",
+    "areaNotAvailable": "Fläche nicht angegeben",
+    "scheduleNotAvailable": "Zeitplan nicht verfügbar",
+    "notAvailable": "Information nicht verfügbar",
+    "yes": "Ja",
+    "no": "Nein",
+    "groundType": "Bodenart",
+    "occupancy": "Belegung",
+    "environment": "Umgebung",
+    "access": "Zugang",
+    "accessType": "Typ",
+    "accessByCar": "Mit dem Auto",
+    "accessReferences": "Referenzen",
+    "visit": "Besuchen"
+  },
+  "veterinary-guides": {
+    "directoryTitle": "Offizielles Tierarztverzeichnis",
+    "mainTitle": "Tierärztliche Zentren",
+    "subtitle": "in Málaga",
+    "countLabel": "Verfügbare Zentren",
+    "sourceInfo": "Aktualisierte Informationen der Tierärztekammer",
+    "loading": "Tierärztliche Zentren werden geladen...",
+    "errorTitle": "Fehler beim Laden der Zentren",
+    "retryButton": "Datenladevorgang wiederholen",
+    "retry": "Wiederholen",
+    "emptyTitle": "Keine Zentren gefunden",
+    "emptyDescription": "Derzeit sind keine tierärztlichen Zentren verfügbar",
+    "reloadButton": "Daten neu laden",
+    "noResultsCenters": "Keine Zentren gefunden",
+    "searchPlaceholder": "Nach Name, Adresse oder Typ suchen (z.B.: Polyklinik, Krankenhaus...)",
+    "searchLabel": "Tierärztliche Zentren suchen",
+    "itemName": "tierärztliches Zentrum",
+    "itemNamePlural": "tierärztliche Zentren",
+    "noResultsSearch": "Keine tierärztlichen Zentren gefunden, die Ihrer Suche entsprechen"
+  },
+  "about": {
+    "title": "Über das Projekt",
+    "paragraphs": [
+      "MálagaPets entstand als persönliches Projekt, das meine Leidenschaft für Webentwicklung mit meiner Liebe zu Haustieren verbindet. Unter Verwendung offener Daten der Stadtverwaltung Málaga über Hundeparks und tierärztlicher Informationen der Tierärztekammer von Málaga habe ich eine moderne Plattform geschaffen, die es erleichtert, sowohl sichere Hundebereiche als auch vertrauenswürdige tierärztliche Dienstleistungen in unserer Stadt zu finden und ein umfassendes Werkzeug zur Pflege unserer Haustiere bietet.",
+      "Mein Ziel ist es, dass MálagaPets mit neuen Abschnitten weiterwächst, die verschiedene Aspekte des Lebens mit Haustieren abdecken: von Vereinsdienstleistungen, Pflege, Fachgeschäften bis hin zu haustierfreundlichen Veranstaltungen und Bildungsressourcen zur Tierpflege. Jede neue Funktion wird mit der gleichen Liebe zum Detail und unter Verwendung offizieller Quellen entwickelt.",
+      "Über die Technologie hinaus glaube ich fest daran, dass die Pflege unserer Haustiere eine einzigartige Gelegenheit ist, sich mit unserer Gemeinschaft zu verbinden, Nachbarn kennenzulernen und die Bindungen zu stärken, die Málaga zu einem einladenderen Ort für alle machen, einschließlich unserer geliebten Haustiere."
+    ],
+    "sign": "Vielen Dank für Ihr Interesse, mehr über dieses Projekt zu erfahren."
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Wir würden gerne von Ihnen hören. Senden Sie uns eine Nachricht und wir werden Ihnen bald antworten.",
+    "about": {
+      "title": "Über das Projekt",
+      "paragraph1": "Dieses Projekt entstand aus der Leidenschaft, außergewöhnliche und zugängliche Web-Erlebnisse für alle zu schaffen.",
+      "paragraph2": "Wir verwenden die neuesten Technologien und Best Practices, um schnelle, sichere und benutzerfreundliche Anwendungen zu gewährleisten.",
+      "paragraph3": "Ihr Feedback ist wertvoll für uns. Zögern Sie nicht, Ihre Ideen, Vorschläge oder Fragen zu teilen.",
+      "mission": "Unsere Mission ist es, digitale Lösungen zu schaffen, die einen Unterschied machen."
+    },
+    "form": {
+      "title": "Senden Sie uns eine Nachricht",
+      "fields": {
+        "name": "Name",
+        "email": "E-Mail",
+        "subject": "Betreff",
+        "message": "Nachricht"
+      },
+      "placeholders": {
+        "name": "Ihr vollständiger Name",
+        "email": "deineemail@email.com",
+        "subject": "Wie können wir Ihnen helfen?",
+        "message": "Erzählen Sie uns mehr über Ihre Anfrage..."
+      },
+      "errors": {
+        "nameMin": "Der Name muss mindestens 2 Zeichen lang sein",
+        "nameMax": "Der Name darf 100 Zeichen nicht überschreiten",
+        "emailInvalid": "Bitte geben Sie eine gültige E-Mail ein",
+        "subjectMin": "Der Betreff muss mindestens 3 Zeichen lang sein",
+        "subjectMax": "Der Betreff darf 200 Zeichen nicht überschreiten",
+        "messageMin": "Die Nachricht muss mindestens 10 Zeichen lang sein",
+        "messageMax": "Die Nachricht darf 2000 Zeichen nicht überschreiten",
+        "validationFailed": "Bitte korrigieren Sie die Fehler im Formular"
+      },
+      "submit": "Nachricht senden",
+      "sending": "Wird gesendet...",
+      "successMessage": "Nachricht erfolgreich gesendet! Wir werden Ihnen bald antworten.",
+      "errorMessage": "Beim Senden der Nachricht ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.",
+      "privacy": {
+        "text": "Durch das Absenden dieses Formulars akzeptieren Sie unsere",
+        "link": "Datenschutzrichtlinie"
+      }
+    }
+  },
+  "stack": {
+    "heading": "Technologie-Stack",
+    "cards": [
+      {
+        "title": "Next.js"
+      },
+      {
+        "title": "Tailwind"
+      },
+      {
+        "title": "Python"
+      },
+      {
+        "title": "Folium"
+      }
+    ]
+  },
+  "footer": {
+    "contact": {
+      "title": "Kontakt",
+      "email": "info@malagapets.com",
+      "address": "Málaga, Spanien"
+    },
+    "navigation": {
+      "title": "Links"
+    },
+    "social": {
+      "title": "Folgen Sie mir",
+      "followUs": "Folgen Sie uns auf:"
+    },
+    "copyright": {
+      "developedWith": "entwickelt mit",
+      "by": "von",
+      "author": "nuriadevs"
+    },
+    "legal": {
+      "privacity": "Datenschutz",
+      "terms": "Bedingungen",
+      "cookies": "Cookies"
+    }
+  },
+  "cookie": {
+    "title": "Cookie-Einstellungen",
+    "description": "Wir verwenden eigene Cookies und Cookies von Drittanbietern, um unsere Dienste zu analysieren und Ihnen Werbung zu zeigen, die mit Ihren Präferenzen zusammenhängt. Sie können Cookies konfigurieren oder ablehnen, indem Sie auf die entsprechenden Schaltflächen klicken.",
+    "policyCookies": "Vollständige Cookie-Richtlinie",
+    "policyPrivacy": "Datenschutzrichtlinie",
+    "acceptAll": "Alle akzeptieren",
+    "rejectOptional": "Nur notwendige",
+    "configure": "Konfigurieren",
+    "configTitle": "Cookie-Präferenzen",
+    "configDescription": "Passen Sie an, welche Cookies Sie akzeptieren möchten. Notwendige Cookies können nicht deaktiviert werden.",
+    "types": {
+      "necessaryLabel": "Notwendige Cookies",
+      "necessaryRequired": "(Erforderlich)",
+      "necessaryDesc": "Wesentlich für die grundlegende Funktionalität der Website.",
+      "functionalLabel": "Funktionale Cookies",
+      "functionalDesc": "Verbessern das Erlebnis, indem sie Ihre Präferenzen speichern (Sprache, Region usw.).",
+      "analyticsLabel": "Analyse-Cookies",
+      "analyticsDesc": "Helfen uns zu verstehen, wie Sie die Website nutzen, um sie zu verbessern (Google Analytics).",
+      "marketingLabel": "Marketing-Cookies",
+      "marketingDesc": "Ermöglichen die Anzeige personalisierter Werbung und messen deren Wirksamkeit."
+    },
+    "back": "Zurück",
+    "savePreferences": "Präferenzen speichern"
+  },
+  "notFound": {
+    "title": "Seite nicht gefunden",
+    "description": "Diese Seite scheint nicht gefunden zu werden. Aber keine Sorge! Unser Team ist hier, um dir zu helfen – wir suchen nach einer Lösung.",
+    "backHome": "Zur Startseite",
+    "searchParks": "Parks suchen",
+    "suggestions": {
+      "title": "Was können Sie tun?",
+      "findParks": "Hundeparks erkunden",
+      "checkMap": "Interaktive Karte anzeigen",
+      "contactUs": "Kontaktieren Sie uns",
+      "goHome": "Zur Startseite zurückkehren"
+    }
+  },
+  "error": {
+    "title": "Hoppla! Etwas ist schiefgelaufen",
+    "description": "Beim Laden der Informationen ist ein unerwarteter Fehler aufgetreten. Unsere Entwickler wurden benachrichtigt.",
+    "retry": "Erneut versuchen",
+    "backHome": "Zur Startseite",
+    "technicalDetails": "Technische Details",
+    "help": {
+      "title": "Brauchen Sie Hilfe?",
+      "description": "Wenn das Problem weiterhin besteht, wenden Sie sich bitte an unser Support-Team.",
+      "temporary": "Vorübergehendes Problem",
+      "refresh": "Versuchen Sie neu zu laden"
+    }
+  },
+  "loading": {
+    "title": "Lädt...",
+    "description": "Bitte warten Sie einen Moment, während wir die Informationen für Sie abrufen.",
+    "loadingParks": "Information wird geladen"
+  },
+  "maps": {
+    "title": "Karte der Hundeparks von Málaga",
+    "ariatitle": "Interaktive Karte, die den Standort aller offiziellen Hundeparks in Málaga zeigt",
+    "loading": "Karte wird geladen...",
+    "loadError": "Fehler beim Laden der Karte",
+    "retry": "Wiederholen",
+    "title_layer": "Hundeparks von Málaga",
+    "address": "Adresse",
+    "wheelchair_access": "Barrierefreier Zugang",
+    "area": "Größe",
+    "water_fountain": "Brunnen",
+    "view": "Ansicht",
+    "open_street_view": "In Street View öffnen",
+    "name_not_available": "Name nicht verfügbar",
+    "address_not_available": "Adresse nicht verfügbar",
+    "info_not_available": "Informationen nicht verfügbar",
+          "beaches": "Karte der Strände wird geladen...",
+            "veterinary": "Karte der veterinärmedizinischen Zentren wird geladen...",
+  "parks": "Karte der Hundeparks wird geladen...",
+    "library": "Kartenbibliothek wird geladen...",
+  "beachesData": "Daten der Strände werden geladen...",
+  "vetsData": "Daten der veterinärmedizinischen Zentren werden geladen...",
+  "parksData": "Daten der Hundeparks werden geladen...",
+  "icons": "Symbole werden vorbereitet..."
+  },
+  "pagination": {
+    "pagination": "Seitennavigation",
+    "previousPage": "Vorherige",
+    "nextPage": "Nächste",
+    "page": "Seite",
+    "of": "von"
+  },
+  "search-results-info": {
+    "showingResults": "Anzeige",
+    "of": "von",
+    "for": "für",
+    "resultsFor": "Ergebnisse für",
+    "allResults": "alle Ergebnisse"
+  },
+  "legal": {
+    "cookies": {
+      "month": "Oktober",
+      "title": "Cookie-Richtlinie",
+      "lastUpdate": "Letzte Aktualisierung",
+      "legalBasis": "Rechtsgrundlage",
+      "note": "Hinweis",
+      "noteText": "Wir verkaufen oder teilen Ihre persönlichen Informationen nicht mit Dritten für kommerzielle Zwecke.",
+      "whatAreCookies": {
+        "title": "Was sind Cookies?",
+        "description": "Cookies sind kleine Textdateien, die auf Ihrem Gerät gespeichert werden, wenn Sie unsere Website besuchen. Sie helfen uns, Ihr Surferlebnis zu verbessern."
+      },
+      "cookiesWeUse": {
+        "title": "Cookies, die wir verwenden",
+        "essential": {
+          "title": "Wesentliche Cookies (notwendig)",
+          "description": "Diese Cookies sind für die Funktionsweise der Website unerlässlich:",
+          "language": "Sprachpräferenzen: Wir merken uns Ihre bevorzugte Sprache",
+          "consent": "Cookie-Zustimmung: Wir speichern Ihre Wahl zu Cookies",
+          "session": "Sitzung: Halten Ihre Sitzung während der Navigation aktiv",
+          "legalBasis": "Berechtigtes Interesse (notwendig für den Websitebetrieb)"
+        },
+        "analytics": {
+          "title": "Analyse-Cookies (optional)",
+          "description": "Wenn Sie Ihre Zustimmung geben, verwenden wir:",
+          "googleAnalytics": "Google Analytics: Um zu verstehen, wie Sie die Website nutzen und sie zu verbessern",
+          "dataCollected": "Gesammelte Daten: besuchte Seiten, Verweildauer, ungefährer Standort",
+          "retention": "Aufbewahrung: 26 Monate",
+          "legalBasis": "Ihre ausdrückliche Zustimmung"
+        }
+      },
+      "yourRights": {
+        "title": "Ihre Rechte",
+        "accept": "Nicht wesentliche Cookies akzeptieren oder ablehnen",
+        "change": "Ihre Präferenzen jederzeit ändern",
+        "delete": "Cookies aus Ihrem Browser löschen",
+        "manageBrowser": {
+          "title": "So verwalten Sie Cookies in Ihrem Browser",
+          "chrome": "Einstellungen > Datenschutz und Sicherheit > Cookies",
+          "firefox": "Optionen > Datenschutz und Sicherheit",
+          "safari": "Einstellungen > Datenschutz",
+          "edge": "Einstellungen > Cookies und Website-Berechtigungen"
+        }
+      },
+      "thirdParty": {
+        "title": "Cookies von Drittanbietern",
+        "description": "Unser Blog kann eingebettete Inhalte (Videos, Karten) enthalten, die ihre eigenen Cookies setzen können. Wir haben keine Kontrolle über diese Cookies."
+      },
+      "contact": {
+        "title": "Kontakt",
+        "description": "Wenn Sie Fragen zu unserer Cookie-Richtlinie haben, kontaktieren Sie uns über das Kontaktformular."
+      }
+    },
+    "privacy": {
+      "month": "Oktober",
+      "title": "Datenschutzrichtlinie",
+      "lastUpdate": "Letzte Aktualisierung",
+      "purpose": "Zweck",
+      "legalBasis": "Rechtsgrundlage",
+      "retention": "Aufbewahrung",
+      "tool": "Werkzeug",
+      "commitment": "Verpflichtung",
+      "commitmentText": "Wir respektieren Ihre Privatsphäre und halten uns an die Datenschutz-Grundverordnung (DSGVO).",
+      "responsible": {
+        "title": "Verantwortlicher für die Datenverarbeitung",
+        "project": "Projektname",
+        "contact": "Kontakt",
+        "contactForm": "Über das Kontaktformular",
+        "location": "Standort"
+      },
+      "dataCollected": {
+        "title": "Welche Daten sammeln wir?",
+        "voluntary": {
+          "title": "Daten, die Sie freiwillig bereitstellen",
+          "contactForm": {
+            "title": "Kontaktformular",
+            "name": "Name",
+            "email": "E-Mail",
+            "message": "Nachricht",
+            "purpose": "Um Ihre Anfragen zu beantworten",
+            "legalBasis": "Einwilligung",
+            "retention": "Bis Sie um Löschung bitten oder 2 Jahre nach dem letzten Kontakt"
+          }
+        },
+        "automatic": {
+          "title": "Automatisch gesammelte Daten",
+          "description": "Webanalyse (mit Ihrer Einwilligung):",
+          "ip": "IP-Adresse (anonymisiert)",
+          "browser": "Browsertyp",
+          "pages": "Besuchte Seiten",
+          "time": "Surfzeit",
+          "location": "Ungefährer Standort (Land/Stadt)",
+          "purpose": "Website verbessern und bessere Inhalte erstellen",
+          "legalBasis": "Einwilligung"
+        }
+      },
+      "shareData": {
+        "title": "Geben wir Ihre Daten weiter?",
+        "noSell": "Wir verkaufen Ihre persönlichen Informationen NICHT.",
+        "onlyWith": "Wir teilen Daten nur mit:",
+        "analytics": "Webanalyse",
+        "hosting": "Hosting-Diensten",
+        "email": "E-Mail-Dienst (für Kontaktformular)",
+        "gdprCompliant": "Alle sind verpflichtet, Ihre Informationen gemäß DSGVO zu schützen."
+      },
+      "rights": {
+        "title": "Ihre Rechte (DSGVO)",
+        "intro": "Sie haben das Recht auf:",
+        "access": {
+          "title": "Zugang",
+          "description": "Wissen, welche Daten wir über Sie haben"
+        },
+        "rectification": {
+          "title": "Berichtigung",
+          "description": "Falsche Daten korrigieren"
+        },
+        "deletion": {
+          "title": "Löschung",
+          "description": "Beantragen, dass wir Ihre Daten löschen"
+        },
+        "portability": {
+          "title": "Übertragbarkeit",
+          "description": "Ihre Daten in lesbarem Format erhalten"
+        },
+        "opposition": {
+          "title": "Widerspruch",
+          "description": "Der Verarbeitung Ihrer Daten widersprechen"
+        },
+        "limitation": {
+          "title": "Einschränkung",
+          "description": "Einschränken, wie wir Ihre Daten verwenden"
+        },
+        "withdraw": {
+          "title": "Einwilligung widerrufen",
+          "description": "Jederzeit"
+        },
+        "exercise": "Um Ihre Rechte auszuüben",
+        "exerciseHow": "Kontaktieren Sie uns über das Kontaktformular."
+      },
+      "security": {
+        "title": "Sicherheit",
+        "description": "Wir implementieren technische und organisatorische Maßnahmen zum Schutz Ihrer Daten:",
+        "https": "Sichere HTTPS-Verbindung",
+        "access": "Eingeschränkter Zugriff auf persönliche Daten",
+        "reviews": "Regelmäßige Sicherheitsüberprüfungen"
+      },
+      "externalLinks": {
+        "title": "Externe Links",
+        "description": "Unsere Website kann Links zu Websites Dritter enthalten. Wir sind nicht verantwortlich für deren Datenschutzrichtlinien."
+      },
+      "changes": {
+        "title": "Änderungen dieser Richtlinie",
+        "description": "Wir können diese Richtlinie gelegentlich aktualisieren. Wir werden Sie über wesentliche Änderungen durch einen Hinweis auf der Website informieren."
+      }
+    },
+    "terms": {
+      "month": "Oktober",
+      "title": "Allgemeine Geschäftsbedingungen",
+      "lastUpdate": "Letzte Aktualisierung",
+      "intro": {
+        "title": "1. Einführung",
+        "description": "Willkommen bei MálagaPets. Durch den Zugriff und die Nutzung dieser Website stimmen Sie zu, diese Allgemeinen Geschäftsbedingungen einzuhalten. Wenn Sie mit einer dieser Bedingungen nicht einverstanden sind, verwenden Sie diese Website bitte nicht."
+      },
+      "usage": {
+        "title": "2. Nutzung der Website",
+        "intro": "Diese Website ist ein persönliches Informationsprojekt über Haustierressourcen in Málaga. Sie können:",
+        "allowed": {
+          "read": "Alle veröffentlichten Inhalte lesen und konsultieren",
+          "share": "Links zu unseren Artikeln in sozialen Medien teilen",
+          "contact": "Uns über das verfügbare Formular kontaktieren"
+        },
+        "notAllowed": {
+          "title": "Nicht erlaubt",
+          "copy": "Inhalte ohne ausdrückliche Genehmigung kopieren, reproduzieren oder weiterverbreiten",
+          "commercial": "Inhalte ohne Erlaubnis für kommerzielle Zwecke verwenden",
+          "illegal": "Illegale oder betrügerische Aktivitäten durchführen",
+          "harm": "Versuchen, die Website zu beschädigen, zu hacken oder die Sicherheit zu gefährden",
+          "scraping": "Automatisiertes Scraping von Inhalten durchführen"
+        }
+      },
+      "intellectual": {
+        "title": "3. Geistiges Eigentum",
+        "description": "Alle Inhalte dieser Website (Texte, Bilder, Design, Code, Logos) sind urheberrechtlich geschützt und gehören MálagaPets oder ihren jeweiligen Eigentümern.",
+        "copyright": {
+          "title": "Urheberrecht",
+          "description": "© 2025 MálagaPets. Alle Rechte vorbehalten."
+        },
+        "permission": "Wenn Sie Inhalte verwenden möchten, kontaktieren Sie uns bitte, um eine Genehmigung anzufordern."
+      },
+      "thirdParty": {
+        "title": "4. Inhalte Dritter",
+        "description": "Diese Website kann enthalten:",
+        "images": "Bilder von lizenzierten Fotobanken (Unsplash, Pexels usw.)",
+        "links": "Links zu externen Websites",
+        "embeds": "Eingebettete Inhalte von Diensten wie Google Maps, YouTube usw.",
+        "openData": "Offene Daten der Stadtverwaltung Málaga und der Tierärztekammer von Málaga"
+      },
+      "externalLinks": {
+        "title": "5. Externe Links",
+        "description": "Diese Website kann Links zu Websites Dritter enthalten. Wir sind nicht verantwortlich für die Inhalte, Datenschutzrichtlinien oder Praktiken dieser externen Websites. Wir empfehlen, deren Bedingungen zu lesen, bevor Sie mit ihnen interagieren."
+      },
+      "disclaimer": {
+        "title": "6. Haftungsbeschränkung",
+        "intro": "Der Inhalt dieser Website wird \"wie besehen\" zu Informationszwecken bereitgestellt. Wir garantieren nicht:",
+        "accuracy": "Die Richtigkeit, Vollständigkeit oder Aktualität der Informationen",
+        "availability": "Die ununterbrochene Verfügbarkeit der Website",
+        "errors": "Die Abwesenheit von Fehlern oder Viren",
+        "damages": "Wir sind nicht verantwortlich für Schäden, die sich aus der Nutzung dieser Website ergeben",
+        "note": "Wichtig",
+        "noteText": "Informationen über Hundeparks, tierärztliche Zentren und Haustierdienste können sich ändern. Überprüfen Sie immer mit offiziellen Quellen, bevor Sie reisen."
+      },
+      "modifications": {
+        "title": "7. Änderungen",
+        "description": "Wir behalten uns das Recht vor, diese Bedingungen jederzeit zu ändern. Änderungen werden sofort nach ihrer Veröffentlichung auf dieser Seite wirksam. Wir empfehlen, diese Seite regelmäßig zu überprüfen."
+      },
+      "contact": {
+        "title": "8. Kontakt",
+        "description": "Wenn Sie Fragen zu diesen Bedingungen haben, können Sie uns über das auf der Website verfügbare Kontaktformular kontaktieren."
+      },
+      "acceptance": {
+        "title": "Annahme der Bedingungen",
+        "description": "Durch die Nutzung dieser Website bestätigen Sie, dass Sie diese Allgemeinen Geschäftsbedingungen gelesen, verstanden und akzeptiert haben."
+      }
+    }
+  },
+  "seo": {
+    "defaultTitle": "MálagaPets - Offizielle Hundeparks von Málaga",
+    "titleSeparator": " | ",
+    "defaultDescription": "Finden Sie die besten offiziellen Hundebereiche in Málaga. Ihr vollständiger Leitfaden für Hundeparks mit aktuellen Informationen.",
+    "ogType": "website",
+    "ogSiteName": "MálagaPets",
+    "categories": {
+      "titles": "Kategorien",
+      "description": "Entdecken Sie alle Artikel, die nach Kategorien organisiert sind"
+    }
+  },
+  "comingSoon": {
+    "title": "Demnächst verfügbar",
+    "description": "Wir arbeiten an neuen Inhalten für Sie. Kommen Sie bald zurück, um unsere Artikel zu entdecken."
+  },
+  "newsletter": {
+    "confirm": {
+      "meta": {
+        "title": "Abonnement bestätigen",
+        "description": "Bestätigen Sie Ihr Newsletter-Abonnement"
+      },
+      "verifying": "Überprüfung läuft...",
+      "pleaseWait": "Bitte warten Sie, während wir Ihr Abonnement bestätigen",
+      "successTitle": "Abonnement bestätigt!",
+      "successMessage": "Vielen Dank für die Bestätigung Ihres Abonnements. Sie erhalten unsere Updates.",
+      "alreadyConfirmedTitle": "Bereits bestätigt",
+      "alreadyConfirmedMessage": "Ihr Abonnement wurde bereits zuvor bestätigt.",
+      "errorTitle": "Bestätigungsfehler",
+      "backToHome": "Zurück zur Startseite",
+      "noToken": "Kein Bestätigungstoken angegeben",
+      "confirmFailed": "Abonnement konnte nicht bestätigt werden",
+      "invalidResponse": "Ungültige Serverantwort",
+      "unknown": "Unbekannter Fehler",
+      "redirecting": "Weiterleitung..."
+    },
+    "success": {
+      "meta": {
+        "title": "Abonnement bestätigt! - Newsletter",
+        "description": "Ihr Abonnement des Málaga-Haustier-Newsletters wurde erfolgreich bestätigt"
+      },
+      "title": "Abonnement bestätigt!",
+      "message": "Vielen Dank für die Bestätigung Ihres Abonnements. Sie erhalten jetzt unsere neuesten Nachrichten, Anleitungen und haustierfreundlichen Updates in Málaga.",
+      "whatNext": {
+        "title": "Was kommt als Nächstes?",
+        "item1": "Sie erhalten bald eine Willkommens-E-Mail",
+        "item2": "Bleiben Sie mit unseren Haustierbeiträgen auf dem Laufenden",
+        "item3": "Entdecken Sie die besten haustierfreundlichen Orte in Málaga"
+      },
+      "buttons": {
+        "home": "Zurück zur Startseite",
+        "blog": "Blog erkunden"
+      },
+      "note": "Sie können sich jederzeit über jede erhaltene E-Mail abmelden"
+    },
+    "error": {
+      "meta": {
+        "title": "Bestätigungsfehler - Newsletter",
+        "description": "Es gab ein Problem bei der Bestätigung Ihres Newsletter-Abonnements"
+      },
+      "title": "Hoppla! Etwas ist schiefgelaufen",
+      "defaultMessage": "Ihr Abonnement konnte nicht bestätigt werden. Der Link ist möglicherweise abgelaufen oder wurde bereits verwendet.",
+      "help": "Keine Sorge, wir können Ihnen helfen, dies zu beheben.",
+      "solutions": {
+        "title": "Mögliche Lösungen:",
+        "item1": "Überprüfen Sie, ob Sie den neuesten Link aus Ihrer E-Mail verwenden",
+        "item2": "Überprüfen Sie Ihren Spam-Ordner auf eine neuere E-Mail",
+        "item3": "Versuchen Sie, sich erneut über unsere Startseite anzumelden"
+      },
+      "buttons": {
+        "home": "Zur Startseite",
+        "contact": "Support kontaktieren"
+      },
+      "note": "Wenn Sie zusätzliche Hilfe benötigen, hilft Ihnen unser Support-Team gerne weiter"
+    },
+    "unsubscribe": {
+      "confirmTitle": "Abonnement kündigen?",
+      "confirmMessage": "Sind Sie sicher, dass Sie sich vom Newsletter abmelden möchten? Sie erhalten keine Updates mehr.",
+      "confirmButton": "Ja, abmelden",
+      "cancelButton": "Nein, Abonnement behalten",
+      "processing": "Wird verarbeitet...",
+      "pleaseWait": "Bitte warten Sie, während wir Ihre Anfrage bearbeiten",
+      "successTitle": "Abgemeldet!",
+      "successMessage": "Sie haben sich erfolgreich abgemeldet. Schade, dass Sie gehen.",
+      "feedbackMessage": "Wenn Sie einen Moment Zeit haben, würden wir gerne wissen, warum Sie gehen, damit wir uns verbessern können.",
+      "alreadyUnsubscribedTitle": "Bereits abgemeldet",
+      "alreadyUnsubscribedMessage": "Sie hatten sich bereits zuvor abgemeldet.",
+      "errorTitle": "Verarbeitungsfehler",
+      "backToHome": "Zurück zur Startseite",
+      "noEmail": "Keine E-Mail-Adresse angegeben",
+      "unsubscribeFailed": "Abmeldung konnte nicht verarbeitet werden",
+      "unknown": "Unbekannter Fehler",
+      "redirecting": "Weiterleitung zur Startseite..."
+    }
+  }
+}

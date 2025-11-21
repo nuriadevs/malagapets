@@ -1,0 +1,125 @@
+{
+    "confirmation": {
+        "preview": "Plus qu'un clic pour rejoindre MálagaPets! 🐾",
+        "hero": {
+            "emoji": "🐾",
+            "title": "Encore une étape pour nous rejoindre!",
+            "subtitle": "Confirmez votre abonnement à MálagaPets"
+        },
+        "greeting": "Bonjour {{name}}! 👋",
+        "intro": "Nous sommes ravis de savoir que vous souhaitez faire partie de notre communauté d'animaux! Merci de votre intérêt pour MálagaPets.",
+        "callout": "Pour commencer à recevoir nos e-mails, vous devez confirmer votre abonnement.",
+        "description": "Une fois confirmé, vous recevrez des nouvelles de notre plateforme et des notifications lorsque nous publierons de nouveaux articles sur notre blog sur les animaux de compagnie à Málaga.",
+        "cta": {
+            "button": "✓ Confirmer mon abonnement",
+            "helper": "Cliquez pour finaliser votre inscription"
+        },
+        "alternative": {
+            "title": "Vous ne voyez pas le bouton?",
+            "text": "Copiez et collez ce lien:"
+        },
+        "warnings": {
+            "expiration": "⏰ Ce lien expirera dans 24 heures pour des raisons de sécurité.",
+            "preferences": "💡 Note: Vous pouvez gérer vos préférences d'e-mail à tout moment via les liens que nous inclurons dans nos e-mails."
+        },
+        "benefits": {
+            "title": "Que recevrez-vous après confirmation? 📬",
+            "items": [
+                "✓ Nouvelles et mises à jour de la plateforme",
+                "✓ Nouveaux articles sur les soins aux animaux",
+                "✓ Guides des lieux adaptés aux animaux à Málaga"
+            ]
+        },
+        "footer": {
+            "signature": "Avec amour des animaux 💚",
+            "team": "L'équipe MálagaPets",
+            "disclaimer": "Si vous n'avez pas demandé cet abonnement, vous pouvez ignorer cet e-mail en toute sécurité.",
+            "copyright": "© {{year}} MálagaPets. Tous droits réservés."
+        }
+    },
+    "welcome": {
+        "preview": "Vous faites maintenant partie de MálagaPets! Découvrez tout ce que nous avons pour vous 🐾",
+        "hero": {
+            "title": "Bienvenue chez MálagaPets!",
+            "subtitle": "Votre aventure avec les animaux commence ici 🐾"
+        },
+        "greeting": "Bonjour {{name}}! 👋",
+        "intro": "Vous faites officiellement partie de notre famille d'animaux. Merci d'avoir confirmé votre abonnement. Nous sommes ravis de partager le meilleur du monde des animaux à Málaga avec vous.",
+        "benefits": {
+            "title": "Qu'attendre de nous?",
+            "platform": {
+                "title": "📧 Nouvelles de la plateforme",
+                "description": "Restez informé des actualités, mises à jour et améliorations exclusives"
+            },
+            "articles": {
+                "title": "📝 Articles et conseils",
+                "description": "Histoires inspirantes et guides pratiques pour mieux prendre soin de votre animal"
+            },
+            "maps": {
+                "title": "🗺️ Cartes et guides locaux",
+                "description": "Découvrez les meilleurs endroits adaptés aux animaux à Málaga"
+            }
+        },
+        "cta": "Explorer MálagaPets",
+        "community": {
+            "title": "Rejoignez notre communauté! 🎉",
+            "description": "Suivez-nous sur les réseaux sociaux pour du contenu quotidien et connectez-vous avec d'autres amoureux des animaux à Málaga",
+            "button": "📱 Suivez-nous sur Instagram"
+        },
+        "footer": {
+            "signature": "Que le plaisir commence! 🐾",
+            "team": "L'équipe MálagaPets",
+            "unsubscribe": "Si vous souhaitez annuler votre abonnement, vous pouvez le faire",
+            "unsubscribeLink": "ici",
+            "copyright": "© {{year}} MálagaPets. Tous droits réservés."
+        }
+    },
+    "unsubscribe": {
+        "preview": "Votre abonnement MálagaPets a été annulé - Merci de nous avoir rejoints!",
+        "hero": {
+            "emoji": "🐾",
+            "title": "Vous allez nous manquer",
+            "subtitle": "Confirmation de désabonnement"
+        },
+        "greeting": "Bonjour {{name}},",
+        "intro": "Nous avons traité votre demande de désabonnement et votre abonnement MálagaPets a été annulé avec succès. Vous ne recevrez plus d'e-mails de notre part.",
+        "details": {
+            "title": "Détails du désabonnement",
+            "email": "📧 E-mail:",
+            "date": "📅 Date:",
+            "effective": "⏰ Effectif: Immédiatement"
+        },
+        "feedback": {
+            "title": "Aidez-nous à nous améliorer? 💭",
+            "description": "Votre opinion nous est très précieuse. Si vous avez une minute, nous aimerions savoir ce que nous aurions pu faire de mieux.",
+            "button": "Envoyer un commentaire"
+        },
+        "stayConnected": {
+            "title": "Mais ne partez pas complètement! 💚",
+            "description": "Même si vous ne recevrez plus nos e-mails, vous pouvez toujours:",
+            "blog": "🌐 Visiter notre",
+            "blogLink": "blog",
+            "blogText": "quand vous le souhaitez",
+            "social": "📱 Nous suivre sur",
+            "socialLink": "Instagram"
+        },
+        "resubscribe": {
+            "title": "Changement de plan? 🔄",
+            "description": "Vous pouvez revenir quand vous le souhaitez. Vous êtes toujours le bienvenu.",
+            "button": "S'abonner à nouveau"
+        },
+        "footer": {
+            "thankYou": "Merci d'avoir fait partie de notre famille 💚",
+            "goodbye": "À bientôt!",
+            "team": "L'équipe MálagaPets",
+            "errorText": "Si c'était une erreur, vous pouvez",
+            "errorLink": "nous contacter",
+            "copyright": "© {{year}} MálagaPets. Tous droits réservés."
+        }
+    },
+    "subjects": {
+        "confirmation": "✉️ Confirmez votre abonnement",
+        "welcome": "🎉 Bienvenue à notre newsletter!",
+        "unsubscribe": "👋 Vous allez nous manquer"
+    }
+}

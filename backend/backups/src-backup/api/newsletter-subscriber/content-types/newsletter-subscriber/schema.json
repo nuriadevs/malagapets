@@ -1,0 +1,37 @@
+
+{
+  "kind": "collectionType",
+  "collectionName": "newsletter_subscribers",
+  "info": {
+    "singularName": "newsletter-subscriber",
+    "pluralName": "newsletter-subscribers",
+    "displayName": "NewsletterSubscriber"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "email",
+      "required": true,
+      "unique": true
+    },
+    "name": {
+      "type": "string"
+    },
+    "estado": {
+      "type": "enumeration",
+      "default": "pending",
+      "enum": [
+        "subscribed",
+        "pending",
+        "unsubscribed"
+      ]
+    },
+    "subscribedAt": {
+      "type": "datetime",
+      "default": "2025-10-09T18:00:00.000Z"
+    }
+  }
+}

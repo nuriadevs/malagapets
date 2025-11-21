@@ -1,0 +1,125 @@
+{
+    "confirmation": {
+        "preview": "Nur noch ein Klick, um MálagaPets beizutreten! 🐾",
+        "hero": {
+            "emoji": "🐾",
+            "title": "Noch ein Schritt zum Beitritt!",
+            "subtitle": "Bestätigen Sie Ihr Abonnement bei MálagaPets"
+        },
+        "greeting": "Hallo {{name}}! 👋",
+        "intro": "Wir freuen uns sehr, dass Sie Teil unserer Haustier-Community werden möchten! Vielen Dank für Ihr Interesse an MálagaPets.",
+        "callout": "Um unsere E-Mails zu erhalten, müssen Sie Ihr Abonnement bestätigen.",
+        "description": "Nach der Bestätigung erhalten Sie Neuigkeiten von unserer Plattform und Benachrichtigungen, wenn wir neue Artikel in unserem Haustier-Blog in Málaga veröffentlichen.",
+        "cta": {
+            "button": "✓ Mein Abonnement bestätigen",
+            "helper": "Klicken Sie, um Ihre Registrierung abzuschließen"
+        },
+        "alternative": {
+            "title": "Können Sie die Schaltfläche nicht sehen?",
+            "text": "Kopieren Sie diesen Link und fügen Sie ihn ein:"
+        },
+        "warnings": {
+            "expiration": "⏰ Dieser Link läuft aus Sicherheitsgründen in 24 Stunden ab.",
+            "preferences": "💡 Hinweis: Sie können Ihre E-Mail-Einstellungen jederzeit über die Links in unseren E-Mails verwalten."
+        },
+        "benefits": {
+            "title": "Was erhalten Sie nach der Bestätigung? 📬",
+            "items": [
+                "✓ Plattform-News und Updates",
+                "✓ Neue Artikel über Haustierpflege",
+                "✓ Leitfäden zu haustierfreundlichen Orten in Málaga"
+            ]
+        },
+        "footer": {
+            "signature": "Mit Liebe von Haustieren 💚",
+            "team": "Das MálagaPets-Team",
+            "disclaimer": "Wenn Sie dieses Abonnement nicht angefordert haben, können Sie diese E-Mail einfach ignorieren.",
+            "copyright": "© {{year}} MálagaPets. Alle Rechte vorbehalten."
+        }
+    },
+    "welcome": {
+        "preview": "Sie sind jetzt Teil von MálagaPets! Entdecken Sie alles, was wir für Sie haben 🐾",
+        "hero": {
+            "title": "Willkommen bei MálagaPets!",
+            "subtitle": "Ihr Haustier-Abenteuer beginnt hier 🐾"
+        },
+        "greeting": "Hallo {{name}}! 👋",
+        "intro": "Sie sind offiziell Teil unserer Haustier-Familie. Vielen Dank für die Bestätigung Ihres Abonnements. Wir freuen uns darauf, das Beste aus der Haustierwelt in Málaga mit Ihnen zu teilen.",
+        "benefits": {
+            "title": "Was können Sie von uns erwarten?",
+            "platform": {
+                "title": "📧 Plattform-Neuigkeiten",
+                "description": "Bleiben Sie auf dem Laufenden mit News, Updates und exklusiven Verbesserungen"
+            },
+            "articles": {
+                "title": "📝 Artikel und Tipps",
+                "description": "Inspirierende Geschichten und praktische Leitfäden für eine bessere Pflege Ihres Haustieres"
+            },
+            "maps": {
+                "title": "🗺️ Lokale Karten und Leitfäden",
+                "description": "Entdecken Sie die besten haustierfreundlichen Orte in Málaga"
+            }
+        },
+        "cta": "MálagaPets erkunden",
+        "community": {
+            "title": "Treten Sie unserer Community bei! 🎉",
+            "description": "Folgen Sie uns in den sozialen Medien für tägliche Inhalte und vernetzen Sie sich mit anderen Haustierliebhabern in Málaga",
+            "button": "📱 Folgen Sie uns auf Instagram"
+        },
+        "footer": {
+            "signature": "Lassen Sie den Spaß beginnen! 🐾",
+            "team": "Das MálagaPets-Team",
+            "unsubscribe": "Wenn Sie Ihr Abonnement kündigen möchten, können Sie dies",
+            "unsubscribeLink": "hier tun",
+            "copyright": "© {{year}} MálagaPets. Alle Rechte vorbehalten."
+        }
+    },
+    "unsubscribe": {
+        "preview": "Ihr MálagaPets-Abonnement wurde gekündigt - Danke, dass Sie dabei waren!",
+        "hero": {
+            "emoji": "🐾",
+            "title": "Wir werden Sie vermissen",
+            "subtitle": "Abmeldebestätigung"
+        },
+        "greeting": "Hallo {{name}},",
+        "intro": "Wir haben Ihre Abmeldeanfrage bearbeitet und Ihr MálagaPets-Abonnement wurde erfolgreich gekündigt. Sie erhalten keine E-Mails mehr von uns.",
+        "details": {
+            "title": "Abmeldedetails",
+            "email": "📧 E-Mail:",
+            "date": "📅 Datum:",
+            "effective": "⏰ Wirksam: Sofort"
+        },
+        "feedback": {
+            "title": "Helfen Sie uns, besser zu werden? 💭",
+            "description": "Ihre Meinung ist uns sehr wichtig. Wenn Sie eine Minute Zeit haben, würden wir gerne wissen, was wir besser machen könnten.",
+            "button": "Feedback senden"
+        },
+        "stayConnected": {
+            "title": "Aber gehen Sie nicht komplett! 💚",
+            "description": "Auch wenn Sie unsere E-Mails nicht mehr erhalten, können Sie immer:",
+            "blog": "🌐 Besuchen Sie unseren",
+            "blogLink": "Blog",
+            "blogText": "wann immer Sie möchten",
+            "social": "📱 Folgen Sie uns auf",
+            "socialLink": "Instagram"
+        },
+        "resubscribe": {
+            "title": "Pläne geändert? 🔄",
+            "description": "Sie können jederzeit zurückkommen. Sie sind immer willkommen.",
+            "button": "Wieder abonnieren"
+        },
+        "footer": {
+            "thankYou": "Danke, dass Sie Teil unserer Familie waren 💚",
+            "goodbye": "Bis bald!",
+            "team": "Das MálagaPets-Team",
+            "errorText": "Wenn dies ein Fehler war, können Sie",
+            "errorLink": "uns kontaktieren",
+            "copyright": "© {{year}} MálagaPets. Alle Rechte vorbehalten."
+        }
+    },
+    "subjects": {
+        "confirmation": "✉️ Bestätigen Sie Ihr Abonnement",
+        "welcome": "🎉 Willkommen zu unserem Newsletter!",
+        "unsubscribe": "👋 Wir werden Sie vermissen"
+    }
+}
