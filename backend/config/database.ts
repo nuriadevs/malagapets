@@ -83,9 +83,31 @@ postgres: {
 
 
 
+
+
 export default ({ env }) => {
-  // 👇 CAMBIO PRINCIPAL: postgres por defecto en lugar de sqlite
-  const client = env('DATABASE_CLIENT', 'postgres');
+  // Si existe DATABASE_URL (Strapi Cloud), úsala directamente
+  if (env('DATABASE_URL')) {
+    return {
+      connection: {
+        client: 'postgres',
+        connection: {
+          connectionString: env('DATABASE_URL'),
+          ssl: {
+            rejectUnauthorized: false,
+          },
+        },
+        pool: {
+          min: env.int('DATABASE_POOL_MIN', 2),
+          max: env.int('DATABASE_POOL_MAX', 10),
+        },
+        acquireConnectionTimeout: env.int('DATABASE_CONNECTION_TIMEOUT', 60000),
+      },
+    };
+  }
+
+  // Para desarrollo local, detecta el cliente
+  const client = env('DATABASE_CLIENT', 'sqlite');
 
   const connections = {
     postgres: {
@@ -95,9 +117,8 @@ export default ({ env }) => {
         database: env('DATABASE_NAME', 'strapi'),
         user: env('DATABASE_USERNAME', 'strapi'),
         password: env('DATABASE_PASSWORD', 'strapi'),
-        // 👇 CAMBIO: true por defecto para producción en Strapi Cloud
-        ssl: env.bool('DATABASE_SSL', true) && {
-          rejectUnauthorized: env.bool('DATABASE_SSL_REJECT_UNAUTHORIZED', false),
+        ssl: env.bool('DATABASE_SSL', false) && {
+          rejectUnauthorized: false,
         },
         schema: env('DATABASE_SCHEMA', 'public'),
       },
@@ -107,7 +128,6 @@ export default ({ env }) => {
       },
     },
 
-    // Mantener sqlite solo para desarrollo local
     sqlite: {
       connection: {
         filename: path.join(__dirname, '..', '..', env('DATABASE_FILENAME', '.tmp/data.db')),
