@@ -176,3 +176,21 @@ data/
 ############################
 
 *.csv
+
+
+# ... tu contenido actual ...
+
+############################
+# Strapi Cloud específico
+############################
+.strapi-cloud.json
+.cache/
+
+############################
+# Archivos temporales desarrollo
+############################
+.tmp/
+.tmp/**
+data/
+*.db
+*.sqlite*
