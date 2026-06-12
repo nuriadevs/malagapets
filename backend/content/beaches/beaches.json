@@ -1,0 +1,307 @@
+[
+  {
+    "id": 1,
+    "name": "Playa Canina de Torre del Mar",
+    "municipality": "Vélez-Málaga",
+    "locality": "Torre del Mar",
+    "location": "Tramo del Mortero, situada en el extremo occidental de la playa de Torre del Mar",
+    "length": "Aprox. 200 metros lineales",
+    "area": "4000 m²",
+    "coordinates": { "lat": 36.7277968, "lng": -4.1048616 },
+    "services": {
+      "dogShower": true,
+      "waterFountain": true,
+      "trashBins": true,
+      "parking": true,
+      "agilityArea": true,
+      "bagDispenser": true
+    },
+    "schedule": {
+      "summer": "9:00 - 22:00",
+      "winter": "Todo el día"
+    },
+    "access": {
+      "type": "Fácil",
+      "by_car": true,
+      "distance_from_center": null,
+      "access_road": null,
+      "references": "Pasando el camping La Laguna, cerca de la casilla de Vicente"
+    },
+    "certifications": ["Primera playa canina andaluza con certificación Q de calidad turística"],
+    "highlights": [
+      "Mejor equipada de todas las playas caninas de Málaga",
+      "Amplia zona de agility y juegos",
+      "Primera con certificación Q de calidad",
+      "Agua limpia y entorno natural",
+      "Servicio de limpieza diaria en verano"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/place/36.7277968,-4.1048616",
+    "status": "Activa 2025",
+    "inauguration": "10 de agosto de 2016"
+  },
+  {
+    "id": 2,
+    "name": "Playa Canina del Castillo (Castillo Sohail)",
+    "municipality": "Fuengirola",
+    "locality": "Fuengirola",
+    "location": "Junto al Castillo Sohail, desembocadura del río Fuengirola, extremo sur del municipio",
+    "length": "800 metros",
+    "area": "3424 m²",
+    "coordinates": { "lat": 36.523778, "lng": -4.628042 },
+    "services": {
+      "dogShower": true,
+      "waterFountain": true,
+      "trashBins": true,
+      "parking": true,
+      "agilityArea": false,
+      "bagDispenser": true
+    },
+    "schedule": {
+      "summer": "10:00 - 23:00",
+      "winter": "10:00 - 21:00",
+      "yearRound": true
+    },
+    "access": {
+      "type": "Muy fácil",
+      "by_car": true,
+      "distance_from_center": "1.5 km desde centro Fuengirola",
+      "access_road": "A-7",
+      "references": "Salida cercana al camping de Fuengirola, dirección Castillo Sohail"
+    },
+    "certifications": ["Certificación Q de Calidad Turística"],
+    "highlights": [
+      "Una de las primeras playas caninas de Málaga (desde 2014)",
+      "Mejor valorada por usuarios",
+      "Entorno histórico junto al Castillo Sohail",
+      "Aguas aptas para el baño",
+      "Muy bien equipada y señalizada",
+      "Fácil acceso y buen aparcamiento"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/place/36.523778,-4.628042",
+    "status": "Activa 2025",
+    "inauguration": "2014"
+  },
+  {
+    "id": 3,
+    "name": "Playa Canina Arroyo Totalán",
+    "municipality": "Málaga",
+    "locality": "Entre Málaga capital y La Cala del Moral",
+    "location": "Entre los municipios de Málaga y Rincón de la Victoria, cerca de la cementera",
+    "length": null,
+    "area": null,
+    "coordinates": { "lat": 36.713438, "lng": -4.316314 },
+    "services": {
+      "dogShower": false,
+      "waterFountain": true,
+      "trashBins": true,
+      "parking": true,
+      "agilityArea": false,
+      "bagDispenser": false
+    },
+    "schedule": {
+      "yearRound": true
+    },
+    "access": {
+      "type": "Fácil",
+      "by_car": true,
+      "distance_from_center": "Cercana a Málaga capital",
+      "access_road": null,
+      "references": "Entre Málaga y La Cala del Moral, zona de la cementera"
+    },
+    "certifications": [],
+    "highlights": [
+      "Más cercana a Málaga capital",
+      "Menos concurrida que otras playas",
+      "Buena para un día tranquilo con tu perro"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/place/36.713438,-4.316314",
+    "status": "Activa 2025"
+  },
+  {
+    "id": 4,
+    "name": "Playa Canina El Pinillo",
+    "municipality": "Marbella",
+    "locality": "Marbella",
+    "location": "Zona de El Pinillo, a las afueras de Marbella, una de las zonas más tranquilas",
+    "length": "250 metros",
+    "area": null,
+    "coordinates": { "lat": 36.5061909, "lng": -4.8521576 },
+    "services": {
+      "dogShower": true,
+      "waterFountain": true,
+      "trashBins": true,
+      "parking": true,
+      "agilityArea": false,
+      "bagDispenser": false
+    },
+    "schedule": {
+      "yearRound": true
+    },
+    "access": {
+      "type": "Sencillo",
+      "by_car": true,
+      "distance_from_center": null,
+      "access_road": "Carretera nacional",
+      "references": "A las afueras de Marbella, acceso por carretera nacional"
+    },
+    "certifications": [],
+    "highlights": [
+      "Zona muy tranquila de Marbella",
+      "Menos concurrida que otras playas",
+      "Menos piedras que otras playas caninas de la provincia",
+      "Agua limpia y zona delimitada para perros",
+      "Cerca del famoso arco de entrada a Marbella"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/place/36.5061909,-4.8521576",
+    "status": "Activa 2025"
+  },
+  {
+    "id": 5,
+    "name": "Playa Canina Ventura del Mar (Nueva Andalucía)",
+    "municipality": "Marbella",
+    "locality": "Nueva Andalucía",
+    "location": "Zona occidental de la Playa de Nueva Andalucía, cerca de la desembocadura del río Guadaliza, cerca de Puerto Banús",
+    "length": "250 metros",
+    "area": null,
+    "coordinates": { "lat": 36.4802755, "lng": -4.9696213 },
+    "services": {
+      "dogShower": false,
+      "waterFountain": false,
+      "trashBins": true,
+      "parking": true,
+      "agilityArea": false,
+      "bagDispenser": false
+    },
+    "schedule": {
+      "yearRound": true
+    },
+    "access": {
+      "type": "Cómodo",
+      "by_car": true,
+      "distance_from_center": null,
+      "access_road": null,
+      "references": "Nueva Andalucía, cerca de Puerto Banús y desembocadura río Guadaliza"
+    },
+    "certifications": [],
+    "highlights": [
+      "Cerca de Puerto Banús",
+      "Ambiente relajado",
+      "Bordeada por la Gran Senda Litoral",
+      "Zona semi-urbana bien comunicada"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/place/36.4802755,-4.9696213",
+    "status": "Activa 2025"
+  },
+  {
+    "id": 6,
+    "name": "Playa Canina Piedra Paloma",
+    "municipality": "Casares",
+    "locality": "Casares",
+    "location": "Playa de Piedra Paloma, acceso desde urbanización Casares del Mar, cerca de la Torre de La Sal",
+    "length": "400 metros",
+    "area": null,
+    "coordinates": { "lat": 36.3863352, "lng": -5.2066351 },
+    "services": {
+      "dogShower": false,
+      "waterFountain": false,
+      "trashBins": true,
+      "parking": true,
+      "agilityArea": false,
+      "bagDispenser": false
+    },
+    "schedule": {
+      "yearRound": true
+    },
+    "access": {
+      "type": "Fácil",
+      "by_car": true,
+      "distance_from_center": null,
+      "access_road": null,
+      "references": "Desde urbanización Casares del Mar, cerca del límite con Cádiz"
+    },
+    "certifications": [],
+    "highlights": [
+      "Menos piedras que otras playas caninas",
+      "Muy tranquila y poco concurrida",
+      "Entorno natural privilegiado",
+      "Cerca de la Torre de La Sal histórica",
+      "Vistas al Arrecife de La Perla",
+      "Una de las más occidentales de Málaga"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/place/36.3863352,-5.2066351",
+    "status": "Activa 2025"
+  },
+  {
+    "id": 7,
+    "name": "Playa Canina Torrox",
+    "municipality": "Torrox",
+    "locality": "Torrox Costa",
+    "location": "Entre el faro y el río de Torrox",
+    "length": null,
+    "area": null,
+    "coordinates": { "lat": 36.7264745, "lng": -3.9567468 },
+    "services": {
+      "dogShower": false,
+      "waterFountain": false,
+      "trashBins": true,
+      "parking": true,
+      "agilityArea": false,
+      "bagDispenser": false
+    },
+    "schedule": {
+      "yearRound": true
+    },
+    "access": {
+      "type": "Fácil",
+      "by_car": true,
+      "distance_from_center": null,
+      "access_road": null,
+      "references": "Entre el faro y el río de Torrox"
+    },
+    "certifications": [],
+    "highlights": [
+      "Zona tranquila en la Axarquía",
+      "Fácil acceso"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/place/36.7264745,-3.9567468",
+    "status": "Activa 2025"
+  },
+  {
+    "id": 8,
+    "name": "Playa Canina Las Arenas",
+    "municipality": "Manilva",
+    "locality": "Manilva",
+    "location": "Playa de Las Arenas, zona de la Urbanización Playa Paraíso, cerca de Punta Chulleras",
+    "length": null,
+    "area": "400 m²",
+    "coordinates": { "lat": 36.3181398, "lng": -5.2447305 },
+    "services": {
+      "dogShower": false,
+      "waterFountain": false,
+      "trashBins": true,
+      "parking": true,
+      "agilityArea": false,
+      "bagDispenser": false
+    },
+    "schedule": {
+      "yearRound": true
+    },
+    "access": {
+      "type": "Fácil",
+      "by_car": true,
+      "distance_from_center": "13 min desde Manilva centro",
+      "access_road": "A-377 hacia A-7 en San Luis de Sabinillas",
+      "references": "Urbanización Playa Paraíso, cerca del límite con Cádiz y Puerto de La Duquesa"
+    },
+    "certifications": [],
+    "highlights": [
+      "Playa canina más reciente de Málaga (inaugurada abril 2025)",
+      "Primera playa canina de la provincia con aparcamiento específico",
+      "Espacio nuevo de 400 m² bien señalizado",
+      "Instalaciones completamente nuevas"
+    ],
+    "googleMapsUrl": "https://www.google.com/maps/place/36.3181398,-5.2447305",
+    "status": "Activa 2025",
+    "inauguration": "Abril 2025"
+  }
+]

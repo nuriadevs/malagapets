@@ -1,0 +1,18 @@
+{
+  "documentId": "le40468f89x8aiq7dbxz8uyo",
+  "name": "Equipo MálagaPets",
+  "email": "info@malagapets.com",
+  "slug": "equipo-malaga-pets",
+  "locale": "es",
+  "bio": "Descubrimos lugares pet-friendly y compartimos todo lo necesario para el bienestar de tu mascota.",
+  "avatar": {
+    "url": "https://res.cloudinary.com/dnxxhni9k/image/upload/v1764793123/malagapets/small_dog_with_glasses_467f6aec1b.jpg",
+    "alternativeText": "perro con gafas y ipad",
+    "width": 500,
+    "height": 334
+  },
+  "seo": {
+    "metaTitle": "Equipo MálagaPets - Guía Pet-Friendly",
+    "metaDescription": "Descubrimos y compartimos los mejores lugares pet-friendly para el bienestar de tu mascota."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "documentId": "le40468f89x8aiq7dbxz8uyo",
+  "name": "Team MálagaPets",
+  "email": "info@malagapets.com",
+  "slug": "equipo-malaga-pets",
+  "locale": "de",
+  "bio": "Wir entdecken haustierfreundliche Orte und teilen alles Notwendige für das Wohlbefinden deines Haustieres.",
+  "avatar": {
+    "url": "https://res.cloudinary.com/dnxxhni9k/image/upload/v1764793123/malagapets/small_dog_with_glasses_467f6aec1b.jpg",
+    "alternativeText": "Hund mit Brille und iPad",
+    "width": 500,
+    "height": 334
+  },
+  "seo": {
+    "metaTitle": "Team MálagaPets - Haustierfreundlicher Ratgeber",
+    "metaDescription": "Wir entdecken und teilen die besten haustierfreundlichen Orte für das Wohlbefinden deines Haustieres."
+  }
+}

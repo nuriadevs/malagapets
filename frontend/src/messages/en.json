@@ -1,0 +1,593 @@
+{
+  "app": {
+    "title": "MálagaPets"
+  },
+  "metadata": {
+    "title": "MálagaPets - Complete Pet Guide in Málaga",
+    "description": "Your complete guide for pets in Málaga: find dog parks, veterinary clinics, emergency hospitals, care tips and pet-friendly resources near you."
+  },
+  "directoryMeta": {
+    "beaches": {
+      "title": "Dog Beaches in Málaga",
+      "description": "Every dog-friendly beach in Málaga and the Costa del Sol: location, access season, rules and services on an interactive map."
+    },
+    "parks": {
+      "title": "Dog Parks in Málaga",
+      "description": "Find Málaga's dog parks: fenced areas, shade, water fountains and services, all on an interactive map."
+    },
+    "veterinary": {
+      "title": "Veterinarians in Málaga",
+      "description": "Directory of veterinary clinics in Málaga: location, opening hours, 24h emergencies and specialities, with an interactive map."
+    }
+  },
+  "theme": {
+    "toggleTheme": "Toggle theme",
+    "options": [
+      {
+        "key": "light",
+        "label": "Light",
+        "value": "light"
+      },
+      {
+        "key": "dark",
+        "label": "Dark",
+        "value": "dark"
+      },
+      {
+        "key": "system",
+        "label": "System",
+        "value": "system"
+      }
+    ]
+  },
+  "pagination": {
+    "previousPage": "Previous",
+    "nextPage": "Next",
+    "page": "Page",
+    "of": "of"
+  },
+  "accessibility": {
+    "pagination": {
+      "navigation": "Pagination navigation",
+      "previousPage": "Go to previous page",
+      "nextPage": "Go to next page"
+    },
+    "header": {
+      "headerLabel": "Main header",
+      "navigationToolbar": "Navigation controls"
+    },
+    "settingsPanel": {
+      "openSettings": "Open settings",
+      "closeSettings": "Close settings",
+      "settingsTitle": "Settings",
+      "settingsDescription": "Customize appearance and language",
+      "themeFieldset": "Theme",
+      "textLanguage": "Language",
+      "settingsNote": "Changes are applied automatically"
+    },
+    "footer": {
+      "explorer": "Explore maps navigation",
+      "blogNav": "Blog navigation",
+      "legalNav": "Legal navigation",
+      "socialNav": "Social media",
+      "homeLink": "{title} — Go to homepage"
+    },
+    "explorer": {
+      "map": "Interactive map of Málaga",
+      "filterByType": "Filter by type",
+      "pagination": "Places pagination",
+      "sidebarLabel": "Places list",
+      "sidebarListLabel": "Places"
+    },
+    "skipToContent": "Skip to content",
+    "card": {
+      "viewOnMaps": "View on Google Maps"
+    },
+    "directory": {
+      "loading-directory": "Loading directory information…",
+      "loading": "Loading information"
+    },
+    "beaches-directory": {
+      "name": "Pet-friendly beaches directory section",
+      "loading": "Loading beaches...",
+      "centersList": "List of pet-friendly beaches",
+      "paginationAriaLabel": "Beach navigation"
+    },
+    "parks-directory": {
+      "name": "Dog parks directory section",
+      "loading": "Loading parks...",
+      "centersList": "List of dog parks",
+      "paginationAriaLabel": "Dog parks navigation"
+    },
+    "vets-directory": {
+      "name": "Veterinary directory section",
+      "loading": "Loading clinics...",
+      "centersList": "List of veterinary clinics and hospitals",
+      "paginationAriaLabel": "Veterinary clinics navigation"
+    },
+    "blog": {
+      "main": "Blog homepage",
+      "post": "Blog post",
+      "readingProgress": "Reading progress",
+      "viewAuthorProfile": "View {name}'s profile",
+      "articleTags": "Article tags"
+    },
+    "search": {
+      "main": "Search the Blog"
+    },
+    "categories": {
+      "main": "Blog categories main page",
+      "categoriesList": "Blog categories list"
+    },
+    "category": {
+      "main": "Blog category page"
+    },
+    "author": {
+      "main": "Blog author page"
+    },
+    "sharePost": {
+      "facebook": "Share on Facebook",
+      "linkedin": "Share on LinkedIn",
+      "whatsapp": "Share on WhatsApp",
+      "telegram": "Share on Telegram"
+    },
+    "button": {
+      "clearAriaLabel": "Clear search"
+    },
+    "main": {
+      "homeContent": "Home",
+      "archive": "Blog archive",
+      "parksCardsContent": "Dog parks guide in Málaga",
+      "vetsCardsContent": "Veterinary clinics and hospitals guide in Málaga",
+      "beachesCardsContent": "Pet-friendly beaches guide in Málaga",
+      "legal": "Legal texts",
+      "privacyPolicy": "Privacy Policy",
+      "cookiesPolicy": "Cookies Policy",
+      "terms": "Terms and Conditions"
+    },
+    "loading": {
+      "main": "Loading screen",
+      "loadingStatus": "Loading status",
+      "loadingText": "Loading text",
+      "loadingProgress": "Loading progress"
+    }
+  },
+  "search": {
+    "title": "Search articles",
+    "subtitle": "Find articles about pets, beaches, guides and more",
+    "resultsFor": "Results for \"{query}\"",
+    "resultsCount": "{count} {articles} found",
+    "article": "article",
+    "articles": "articles",
+    "searchTerm": "Search",
+    "emptyState": {
+      "title": "What are you looking for?",
+      "description": "Type something in the search field to find articles"
+    },
+    "noResults": {
+      "title": "No results",
+      "description": "We couldn't find any articles matching your search. Try other terms."
+    },
+    "form": {
+      "ariaLabel": "Article search form",
+      "placeholder": "Search articles...",
+      "inputAriaLabel": "Search articles by title or topic",
+      "clearAriaLabel": "Clear search"
+    }
+  },
+  "navigation": {
+    "mainNav": "Main navigation",
+    "currentPage": "(current page)",
+    "home": "Home",
+    "explorer": "Explore",
+    "legal": "Legal",
+    "directory": "Directory",
+    "guide": "Guides",
+    "privacity": "Privacy",
+    "cookies": "Cookies",
+    "terms": "Terms",
+    "parks": "Dog Parks",
+    "veterinary": "Veterinary",
+    "beaches": "Beaches",
+    "blog": "Blog",
+    "allPosts": "All articles",
+    "categories": "Categories",
+    "search": "Search",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "menuOpened": "Menu opened",
+    "menuClosed": "Menu closed",
+    "mobileNav": "Mobile navigation",
+    "changeLanguage": "Change language",
+    "links": [
+      {
+        "key": "home",
+        "href": "/",
+        "labelKey": "home"
+      },
+      {
+        "key": "explorer",
+        "href": "/explorer",
+        "labelKey": "explorer"
+      },
+      {
+        "key": "directory",
+        "href": "/directory",
+        "labelKey": "directory",
+        "submenu": [
+          {
+            "key": "veterinary",
+            "href": "/directory/veterinary",
+            "labelKey": "veterinary",
+            "icon": "stethoscope",
+            "descriptionKey": "veterinaryDesc"
+          },
+          {
+            "key": "parks",
+            "href": "/directory/parks",
+            "labelKey": "parks",
+            "icon": "trees",
+            "descriptionKey": "parksDesc"
+          },
+          {
+            "key": "beaches",
+            "href": "/directory/beaches",
+            "labelKey": "beaches",
+            "icon": "wave-sine",
+            "descriptionKey": "beachesDesc"
+          }
+        ]
+      },
+      {
+        "key": "blog",
+        "href": "/blog",
+        "labelKey": "blog",
+        "submenu": [
+          {
+            "key": "allPosts",
+            "href": "/blog",
+            "labelKey": "allPosts"
+          },
+          {
+            "key": "categories",
+            "href": "/blog/categories",
+            "labelKey": "categories"
+          },
+          {
+            "key": "search",
+            "href": "/blog/search",
+            "labelKey": "search"
+          }
+        ]
+      },
+      {
+        "key": "legal",
+        "href": "/legal",
+        "labelKey": "legal",
+        "submenu": [
+          {
+            "key": "privacy",
+            "href": "/legal/privacy",
+            "labelKey": "privacity"
+          },
+          {
+            "key": "terms",
+            "href": "/legal/terms",
+            "labelKey": "terms"
+          },
+          {
+            "key": "cookies",
+            "href": "/legal/cookies",
+            "labelKey": "cookies"
+          }
+        ]
+      }
+    ]
+  },
+  "homepage": {
+    "title": "MálagaPets",
+    "subtitle": {
+      "part1": "Everything your ",
+      "highlight": "pets",
+      "part2": " need: spaces, services and community in one place"
+    }
+  },
+  "mission": {
+    "heading": "Our Mission",
+    "cards": [
+      {
+        "title": "Animal Welfare",
+        "description": "Promote the health, happiness and comprehensive care of all pets in our community"
+      },
+      {
+        "title": "Social Connection",
+        "description": "Create spaces and services that bring pet lovers together and strengthen community bonds"
+      },
+      {
+        "title": "Pet-Friendly",
+        "description": "Help make Málaga a more inclusive and welcoming city for all pets and their families"
+      }
+    ]
+  },
+  "discover": {
+    "label": "Blog",
+    "title": "Latest articles",
+    "cta": "See all articles"
+  },
+  "explorer": {
+    "badge": "Pet-friendly explorer",
+    "title": "Explore Málaga",
+    "titleHighlight": "with your pet",
+    "subtitle": "Find dog parks, beaches and vets in one interactive map",
+    "cards": {
+      "map": "View map"
+    },
+    "mapPages": {
+      "noName": "No name",
+      "placesFound": "Places found",
+      "all": "All places",
+      "loading": "Loading",
+      "noParks": "No parks",
+      "noBeaches": "No beaches",
+      "noVets": "No vets",
+      "parks": {
+        "title": "Dog parks"
+      },
+      "beaches": {
+        "title": "Dog beaches"
+      },
+      "veterinary": {
+        "title": "Veterinary",
+        "hospital": "Veterinary hospital",
+        "clinic": "Veterinary clinic"
+      }
+    },
+    "geolocation": {
+      "youAreHere": "Your current location",
+      "button": "Show distance from my location",
+      "loading": "Getting location...",
+      "active": "Distances enabled",
+      "clear": "Disable distances",
+      "denied": "Could not get your location. Check your browser permissions."
+    }
+  },
+  "mapHighlight": {
+    "label": "Interactive map",
+    "title": "Pet-friendly resources, all on one map",
+    "description": "Dog parks, beaches and vets in Málaga on an interactive map. Check services, schedules and get directions from your location.",
+    "features": [
+      "Georeferenced dog parks, beaches and vets",
+      "Filter by resource type and check available services",
+      "Available in Spanish, English, German and French"
+    ],
+    "cta": "Explore the map",
+    "mapLabel": "Interactive map of Málaga",
+    "floatingCard": {
+      "name": "Parque Huerta Nueva",
+      "detail": "Area · 1900 m²"
+    }
+  },
+  "data-cards": {
+    "adress": "Location",
+    "municipality": "Municipality",
+    "location": "Location",
+    "dimensions": "Dimensions",
+    "email": "Email",
+    "website": "Website",
+    "length": "Length",
+    "area": "Area",
+    "summerSchedule": "Summer",
+    "winterSchedule": "Winter",
+    "year_round": "Open all year",
+    "services": "Services",
+    "certifications": "Certifications",
+    "highlights": "Highlights",
+    "dogShower": "Dog shower",
+    "waterFountain": "Water fountain",
+    "trashBins": "Rubbish bins",
+    "parking": "Parking",
+    "agilityArea": "Agility area",
+    "bagDispenser": "Bag dispenser",
+    "phone": {
+      "name": "Phone",
+      "phones": "Phones",
+      "emergency": "Emergency",
+      "landlineFull": "Landline",
+      "mobileFull": "Mobile phone"
+    },
+    "schedule": "Schedule",
+    "schedules": "Schedules",
+    "daysOpen": "Availability",
+    "accessibility": "Accessibility",
+    "accessible": "Accessible",
+    "notAccessible": "Not accessible",
+    "fountain": "Fountain",
+    "available": "Available",
+    "notAvailableShort": "Not available",
+    "biZone": "Bi-zone",
+    "postalCode": "Postal code",
+    "viewInMaps": "View on Google Maps",
+    "yes": "Yes",
+    "no": "No",
+    "access": "Access",
+    "accessType": "Type",
+    "accessByCar": "By car",
+    "accessReferences": "References",
+    "distanceFromCenter": "Distance from centre",
+    "accessRoad": "Access road"
+  },
+  "veterinary-directory": {
+    "directoryTitle": "Official Veterinary Directory",
+    "clinic": "Veterinary Clinic",
+    "hospital": "Veterinary Hospital",
+    "mainTitle": "Veterinary Centres",
+    "countLabel": "Available Centres",
+    "sourceInfo": "Updated information from the Official Veterinary College",
+    "errorTitle": "Error loading centres",
+    "retry": "Retry",
+    "emptyTitle": "No centres found",
+    "emptyDescription": "There are no veterinary centres available at this time",
+    "reloadButton": "Reload data",
+    "searchPlaceholder": "Search by name, address or type (e.g. polyclinic, hospital...)",
+    "searchLabel": "Search veterinary centres",
+    "itemName": "veterinary centre",
+    "itemNamePlural": "veterinary centres",
+    "noResultsSearch": "No veterinary centres found matching your search"
+  },
+  "parks-directory": {
+    "directoryTitle2": "Dog Parks Directory",
+    "mainTitle": "Dog Parks",
+    "countLabel": "Available Parks",
+    "sourceInfo": "Updated information from Málaga City Council",
+    "searchPlaceholder": "Search parks by name, address...",
+    "searchLabel": "Search dog parks",
+    "itemName": "dog park",
+    "itemNamePlural": "dog parks",
+    "noResultsSearch": "No parks found matching your search"
+  },
+  "beaches-directory": {
+    "directoryTitle2": "Dog Beaches Directory",
+    "mainTitle": "Dog Beaches",
+    "countLabel": "Available Beaches",
+    "sourceInfo": "Updated information",
+    "searchPlaceholder": "Search by name or municipality (e.g. Málaga, Vélez...)",
+    "searchLabel": "Search dog beaches",
+    "itemName": "dog beach",
+    "itemNamePlural": "dog beaches",
+    "noResultsSearch": "No beaches found matching your search",
+    "errorTitle": "Error loading beaches",
+    "emptyDescription": "There are no dog beaches available at this time",
+    "emptyTitle": "No beaches found",
+    "retry": "Retry"
+  },
+  "search-results-info": {
+    "showingResults": "Showing",
+    "of": "of",
+    "for": "for",
+    "allResults": "all results"
+  },
+  "blog": {
+    "content": {
+      "latest": {
+        "title": "Latest Posts",
+        "subtitle": "Discover the latest news, tips and trends in the world of pet care"
+      },
+      "category": {
+        "title": "Explore by Category",
+        "subtitle": "Find specific content organised by topics that interest you",
+        "noPosts": "There are no articles in this category yet.",
+        "article": "article",
+        "articles": "articles"
+      },
+      "archive": {
+        "title": "Blog Library",
+        "subtitle": "Our entire content library in one place",
+        "article": "article",
+        "articles": "articles"
+      },
+      "author": {
+        "allArticles": "All articles by "
+      },
+      "blogSectionTitle": "Latest posts",
+      "viewAllPosts": "All posts",
+      "relatedPosts": "Related articles",
+      "lastPost": "Last post",
+      "backToBlog": "Back to blog",
+      "minReader": "min read",
+      "noContent": "No articles available",
+      "noPosts": "No articles available",
+      "all": "All"
+    },
+    "category": {
+      "heroTitle": "Explore by Category",
+      "heroSubtitle": "Find articles by your interests",
+      "allCategories": "All categories",
+      "postsInCategory": "Articles in the '{category}' category",
+      "noPosts": "There are no articles in this category",
+      "loadMore": "Load more articles",
+      "endOfList": "You have reached the end of the list",
+      "article": "article",
+      "articles": "articles",
+      "resultsCount": "in this category"
+    },
+    "card": {
+      "readProfile": "View profile"
+    },
+    "sharePost": {
+      "shareText": "Share this article:"
+    }
+  },
+  "loading": {
+    "title": "Loading...",
+    "description": "Please wait a moment"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "description": "The page you are looking for does not exist.",
+    "back": "Back to home"
+  },
+  "error": {
+    "title": "Something went wrong",
+    "description": "An unexpected error occurred.",
+    "retry": "Try again"
+  },
+  "footer": {
+    "sections": {
+      "resources": {
+        "title": "Resources"
+      },
+      "blog": {
+        "title": "Blog"
+      },
+      "legal": {
+        "title": "Legal"
+      }
+    },
+    "contact": {
+      "title": "Contact",
+      "emailLabel": "Send email to MálagaPets"
+    },
+    "social": {
+      "followUs": "Follow us:"
+    },
+    "copyright": "All rights reserved.",
+    "legal_links": {
+      "privacity": "Privacy",
+      "terms": "Terms of use",
+      "cookies": "Cookies"
+    },
+    "credit": {
+      "madeWith": "Made with",
+      "by": "by",
+      "author": "Nuria"
+    }
+  },
+  "legal": {
+    "subtitle": "Policies and Terms",
+    "privacy": {
+      "title": "Privacy Policy",
+      "lastUpdate": "Last updated",
+      "text": "MálagaPets is a personal project. We do not collect personal data. We do not use analytics or tracking. Only Google Search Console receives information about site indexation."
+    },
+    "cookies": {
+      "title": "Cookie Policy",
+      "lastUpdate": "Last updated",
+      "noteText": "Important Note",
+      "text": "We use only essential cookies for functionality: language and consent. There are no tracking or analytics cookies."
+    },
+    "terms": {
+      "title": "Terms and Conditions",
+      "lastUpdate": "Last updated",
+      "intro": "MálagaPets is a personal informational project. © 2026 MálagaPets. It is not permitted to copy or reproduce content without permission. Information is provided as is without warranties.",
+      "dataSources": {
+        "title": "Data Sources",
+        "description": "The data you will find on MálagaPets comes from official and public sources:",
+        "parks": "Dog Parks: Málaga City Council Open Data Portal (https://datosabiertos.malaga.eu)",
+        "veterinary": "Veterinarians: Official College of Veterinarians of Málaga (https://colegioveterinariosmalaga.es/)",
+        "beaches": "Beaches: Local municipalities in Málaga province"
+      },
+      "noteHeading": "Warning Note",
+      "note": "Always verify with the original sources before using the data."
+    }
+  }
+}

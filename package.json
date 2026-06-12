@@ -1,0 +1,13 @@
+{
+  "name": "malagapets",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --parallel -r dev",
+    "build": "pnpm --filter backend build && pnpm --filter frontend build",
+    "lint": "pnpm -r lint",
+    "type-check": "pnpm -r type-check"
+  },
+  "devDependencies": {
+    "typescript": "catalog:"
+  }
+}

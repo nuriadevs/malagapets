@@ -1,0 +1,593 @@
+{
+  "app": {
+    "title": "MálagaPets"
+  },
+  "metadata": {
+    "title": "MálagaPets - Guide Complet pour Animaux à Málaga",
+    "description": "Votre guide complet pour animaux de compagnie à Málaga : trouvez des parcs canins, cliniques vétérinaires, hôpitaux d'urgences, conseils de soins et ressources pet-friendly près de chez vous."
+  },
+  "directoryMeta": {
+    "beaches": {
+      "title": "Plages Canines à Málaga",
+      "description": "Toutes les plages pour chiens de Málaga et de la Costa del Sol : emplacement, saison d'accès, réglementation et services sur une carte interactive."
+    },
+    "parks": {
+      "title": "Parcs Canins à Málaga",
+      "description": "Trouvez les parcs pour chiens de Málaga : zones clôturées, ombre, fontaines à eau et services, le tout sur une carte interactive."
+    },
+    "veterinary": {
+      "title": "Vétérinaires à Málaga",
+      "description": "Annuaire des cliniques vétérinaires de Málaga : emplacement, horaires, urgences 24h et spécialités, avec carte interactive."
+    }
+  },
+  "theme": {
+    "toggleTheme": "Changer le thème",
+    "options": [
+      {
+        "key": "light",
+        "label": "Clair",
+        "value": "light"
+      },
+      {
+        "key": "dark",
+        "label": "Sombre",
+        "value": "dark"
+      },
+      {
+        "key": "system",
+        "label": "Système",
+        "value": "system"
+      }
+    ]
+  },
+  "pagination": {
+    "previousPage": "Précédent",
+    "nextPage": "Suivant",
+    "page": "Page",
+    "of": "sur"
+  },
+  "accessibility": {
+    "pagination": {
+      "navigation": "Navigation de pagination",
+      "previousPage": "Aller à la page précédente",
+      "nextPage": "Aller à la page suivante"
+    },
+    "header": {
+      "headerLabel": "En-tête principal",
+      "navigationToolbar": "Contrôles de navigation"
+    },
+    "settingsPanel": {
+      "openSettings": "Ouvrir les paramètres",
+      "closeSettings": "Fermer les paramètres",
+      "settingsTitle": "Paramètres",
+      "settingsDescription": "Personnalisez l'apparence et la langue",
+      "themeFieldset": "Thème",
+      "textLanguage": "Langue",
+      "settingsNote": "Les modifications sont appliquées automatiquement"
+    },
+    "footer": {
+      "explorer": "Navigation explorer les cartes",
+      "blogNav": "Navigation du blog",
+      "legalNav": "Navigation légale",
+      "socialNav": "Réseaux sociaux",
+      "homeLink": "{title} — Aller à l'accueil"
+    },
+    "explorer": {
+      "map": "Carte interactive de Málaga",
+      "filterByType": "Filtrer par type",
+      "pagination": "Pagination des lieux",
+      "sidebarLabel": "Liste des lieux",
+      "sidebarListLabel": "Lieux"
+    },
+    "skipToContent": "Aller au contenu",
+    "card": {
+      "viewOnMaps": "Voir sur Google Maps"
+    },
+    "directory": {
+      "loading-directory": "Chargement des informations du répertoire…",
+      "loading": "Chargement des informations"
+    },
+    "beaches-directory": {
+      "name": "Section répertoire des plages pour animaux",
+      "loading": "Chargement des plages...",
+      "centersList": "Liste des plages pour animaux",
+      "paginationAriaLabel": "Navigation des plages"
+    },
+    "parks-directory": {
+      "name": "Section répertoire des parcs canins",
+      "loading": "Chargement des parcs...",
+      "centersList": "Liste des parcs canins",
+      "paginationAriaLabel": "Navigation des parcs canins"
+    },
+    "vets-directory": {
+      "name": "Section répertoire vétérinaire",
+      "loading": "Chargement des cliniques...",
+      "centersList": "Liste des cliniques et hôpitaux vétérinaires",
+      "paginationAriaLabel": "Navigation des cliniques vétérinaires"
+    },
+    "blog": {
+      "main": "Page principale du blog",
+      "post": "Article de blog",
+      "readingProgress": "Progression de lecture",
+      "viewAuthorProfile": "Voir le profil de {name}",
+      "articleTags": "Étiquettes de l'article"
+    },
+    "search": {
+      "main": "Rechercher dans le Blog"
+    },
+    "categories": {
+      "main": "Page principale des catégories du blog",
+      "categoriesList": "Liste des catégories du blog"
+    },
+    "category": {
+      "main": "Page de catégorie du blog"
+    },
+    "author": {
+      "main": "Page de l'auteur du blog"
+    },
+    "sharePost": {
+      "facebook": "Partager sur Facebook",
+      "linkedin": "Partager sur LinkedIn",
+      "whatsapp": "Partager sur WhatsApp",
+      "telegram": "Partager sur Telegram"
+    },
+    "button": {
+      "clearAriaLabel": "Effacer la recherche"
+    },
+    "main": {
+      "homeContent": "Accueil",
+      "archive": "Archive du blog",
+      "parksCardsContent": "Guide des parcs canins à Málaga",
+      "vetsCardsContent": "Guide des cliniques et hôpitaux vétérinaires à Málaga",
+      "beachesCardsContent": "Guide des plages pour animaux à Málaga",
+      "legal": "Textes légaux",
+      "privacyPolicy": "Politique de confidentialité",
+      "cookiesPolicy": "Politique des cookies",
+      "terms": "Termes et conditions"
+    },
+    "loading": {
+      "main": "Écran de chargement",
+      "loadingStatus": "Statut de chargement",
+      "loadingText": "Texte de chargement",
+      "loadingProgress": "Progression du chargement"
+    }
+  },
+  "search": {
+    "title": "Rechercher des articles",
+    "subtitle": "Trouvez des articles sur les animaux, les plages, les guides et plus",
+    "resultsFor": "Résultats pour \"{query}\"",
+    "resultsCount": "{count} {articles} trouvés",
+    "article": "article",
+    "articles": "articles",
+    "searchTerm": "Recherche",
+    "emptyState": {
+      "title": "Que cherchez-vous ?",
+      "description": "Tapez quelque chose dans le champ de recherche pour trouver des articles"
+    },
+    "noResults": {
+      "title": "Aucun résultat",
+      "description": "Aucun article correspondant à votre recherche n'a été trouvé. Essayez d'autres termes."
+    },
+    "form": {
+      "ariaLabel": "Formulaire de recherche d'articles",
+      "placeholder": "Rechercher des articles...",
+      "inputAriaLabel": "Rechercher des articles par titre ou sujet",
+      "clearAriaLabel": "Effacer la recherche"
+    }
+  },
+  "navigation": {
+    "mainNav": "Navigation principale",
+    "currentPage": "(page actuelle)",
+    "home": "Accueil",
+    "explorer": "Explorer",
+    "directory": "Annuaire",
+    "guide": "Guides",
+    "legal": "Légal",
+    "privacity": "Privacité",
+    "cookies": "Cookies",
+    "terms": "Conditions",
+    "parks": "Parcs canins",
+    "veterinary": "Vétérinaires",
+    "beaches": "Plages",
+    "blog": "Blog",
+    "allPosts": "Tous les articles",
+    "categories": "Catégories",
+    "search": "Recherche",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "menuOpened": "Menu ouvert",
+    "menuClosed": "Menu fermé",
+    "mobileNav": "Navigation mobile",
+    "changeLanguage": "Changer la langue",
+    "links": [
+      {
+        "key": "home",
+        "href": "/",
+        "labelKey": "home"
+      },
+      {
+        "key": "explorer",
+        "href": "/explorer",
+        "labelKey": "explorer"
+      },
+      {
+        "key": "directory",
+        "href": "/directory",
+        "labelKey": "directory",
+        "submenu": [
+          {
+            "key": "veterinary",
+            "href": "/directory/veterinary",
+            "labelKey": "veterinary",
+            "icon": "stethoscope",
+            "descriptionKey": "veterinaryDesc"
+          },
+          {
+            "key": "parks",
+            "href": "/directory/parks",
+            "labelKey": "parks",
+            "icon": "trees",
+            "descriptionKey": "parksDesc"
+          },
+          {
+            "key": "beaches",
+            "href": "/directory/beaches",
+            "labelKey": "beaches",
+            "icon": "wave-sine",
+            "descriptionKey": "beachesDesc"
+          }
+        ]
+      },
+      {
+        "key": "blog",
+        "href": "/blog",
+        "labelKey": "blog",
+        "submenu": [
+          {
+            "key": "allPosts",
+            "href": "/blog",
+            "labelKey": "allPosts"
+          },
+          {
+            "key": "categories",
+            "href": "/blog/categories",
+            "labelKey": "categories"
+          },
+          {
+            "key": "search",
+            "href": "/blog/search",
+            "labelKey": "search"
+          }
+        ]
+      },
+      {
+        "key": "legal",
+        "href": "/legal",
+        "labelKey": "legal",
+        "submenu": [
+          {
+            "key": "privacy",
+            "href": "/legal/privacy",
+            "labelKey": "privacity"
+          },
+          {
+            "key": "terms",
+            "href": "/legal/terms",
+            "labelKey": "terms"
+          },
+          {
+            "key": "cookies",
+            "href": "/legal/cookies",
+            "labelKey": "cookies"
+          }
+        ]
+      }
+    ]
+  },
+  "homepage": {
+    "title": "MálagaPets",
+    "subtitle": {
+      "part1": "Tout ce que vos ",
+      "highlight": "animaux",
+      "part2": " ont besoin : espaces, services et communauté en un seul endroit"
+    }
+  },
+  "mission": {
+    "heading": "Notre Mission",
+    "cards": [
+      {
+        "title": "Bien-être animal",
+        "description": "Promouvoir la santé, le bonheur et le soin global de tous les animaux de compagnie dans notre communauté"
+      },
+      {
+        "title": "Connexion sociale",
+        "description": "Créer des espaces et des services qui rassemblent les amoureux des animaux et renforcent les liens communautaires"
+      },
+      {
+        "title": "Pet-Friendly",
+        "description": "Contribuer à faire de Málaga une ville plus inclusive et accueillante pour tous les animaux et leurs familles"
+      }
+    ]
+  },
+  "discover": {
+    "label": "Blog",
+    "title": "Derniers articles",
+    "cta": "Voir tous les articles"
+  },
+  "explorer": {
+    "badge": "Explorateur pet-friendly",
+    "title": "Explorez Málaga",
+    "titleHighlight": "avec votre animal",
+    "subtitle": "Parcs canins, plages et vétérinaires sur une seule carte interactive",
+    "cards": {
+      "map": "Voir la carte"
+    },
+    "mapPages": {
+      "noName": "Sans nom",
+      "placesFound": "Lieux trouvés",
+      "all": "Tous les lieux",
+      "loading": "Chargement",
+      "noParks": "Aucun parc",
+      "noBeaches": "Aucune plage",
+      "noVets": "Aucun vétérinaire",
+      "parks": {
+        "title": "Parcs canins"
+      },
+      "beaches": {
+        "title": "Plages canines"
+      },
+      "veterinary": {
+        "title": "Vétérinaires",
+        "hospital": "Hôpital vétérinaire",
+        "clinic": "Clinique vétérinaire"
+      }
+    },
+    "geolocation": {
+      "youAreHere": "Votre position actuelle",
+      "button": "Afficher la distance depuis ma position",
+      "loading": "Obtention de la position...",
+      "active": "Distances activées",
+      "clear": "Désactiver les distances",
+      "denied": "Impossible d'obtenir votre position. Vérifiez les autorisations du navigateur."
+    }
+  },
+  "mapHighlight": {
+    "label": "Carte interactive",
+    "title": "Ressources pet-friendly, sur une seule carte",
+    "description": "Parcs canins, plages et vétérinaires de Málaga sur une carte interactive. Consultez les services, horaires et obtenez un itinéraire depuis votre position.",
+    "features": [
+      "Parcs canins, plages et vétérinaires géoréférencés",
+      "Filtrez par type de ressource et consultez les services disponibles",
+      "Disponible en espagnol, anglais, allemand et français"
+    ],
+    "cta": "Explorer la carte",
+    "mapLabel": "Carte interactive de Málaga",
+    "floatingCard": {
+      "name": "Parque Huerta Nueva",
+      "detail": "Surface · 1900 m²"
+    }
+  },
+  "data-cards": {
+    "adress": "Adresse",
+    "municipality": "Municipalité",
+    "location": "Localisation",
+    "dimensions": "Dimensions",
+    "email": "E-mail",
+    "website": "Site web",
+    "length": "Longueur",
+    "area": "Surface",
+    "summerSchedule": "Été",
+    "winterSchedule": "Hiver",
+    "year_round": "Ouvert toute l'année",
+    "services": "Services",
+    "certifications": "Certifications",
+    "highlights": "Points forts",
+    "dogShower": "Douche canine",
+    "waterFountain": "Fontaine à eau",
+    "trashBins": "Poubelles",
+    "parking": "Parking",
+    "agilityArea": "Zone d'agility",
+    "bagDispenser": "Distributeur de sacs",
+    "phone": {
+      "name": "Téléphone",
+      "phones": "Téléphones",
+      "emergency": "Urgences",
+      "landlineFull": "Téléphone fixe",
+      "mobileFull": "Téléphone portable"
+    },
+    "schedule": "Horaire",
+    "schedules": "Horaires",
+    "daysOpen": "Disponibilité",
+    "accessibility": "Accessibilité PMR",
+    "accessible": "Accessible",
+    "notAccessible": "Non accessible",
+    "fountain": "Fontaine",
+    "available": "Disponible",
+    "notAvailableShort": "Indisponible",
+    "biZone": "Bi-zone",
+    "postalCode": "Code postal",
+    "viewInMaps": "Voir sur Google Maps",
+    "yes": "Oui",
+    "no": "Non",
+    "access": "Accès",
+    "accessType": "Type",
+    "accessByCar": "En voiture",
+    "accessReferences": "Références",
+    "distanceFromCenter": "Distance depuis le centre",
+    "accessRoad": "Route d'accès"
+  },
+  "veterinary-directory": {
+    "directoryTitle": "Répertoire Officiel Vétérinaire",
+    "clinic": "Clinique Vétérinaire",
+    "hospital": "Hôpital Vétérinaire",
+    "mainTitle": "Centres Vétérinaires",
+    "countLabel": "Centres Disponibles",
+    "sourceInfo": "Informations mises à jour du Collège Officiel des Vétérinaires",
+    "errorTitle": "Erreur lors du chargement des centres",
+    "retry": "Réessayer",
+    "emptyTitle": "Aucun centre trouvé",
+    "emptyDescription": "Il n'y a pas de centres vétérinaires disponibles en ce moment",
+    "reloadButton": "Recharger les données",
+    "searchPlaceholder": "Rechercher par nom, adresse ou type (ex : polyclinique, hôpital...)",
+    "searchLabel": "Rechercher des centres vétérinaires",
+    "itemName": "centre vétérinaire",
+    "itemNamePlural": "centres vétérinaires",
+    "noResultsSearch": "Aucun centre vétérinaire trouvé correspondant à votre recherche"
+  },
+  "parks-directory": {
+    "directoryTitle2": "Répertoire des Parcs Canins",
+    "mainTitle": "Parcs Canins",
+    "countLabel": "Parcs Disponibles",
+    "sourceInfo": "Informations mises à jour de la Mairie de Málaga",
+    "searchPlaceholder": "Rechercher des parcs par nom, adresse...",
+    "searchLabel": "Rechercher des parcs canins",
+    "itemName": "parc canin",
+    "itemNamePlural": "parcs canins",
+    "noResultsSearch": "Aucun parc trouvé correspondant à votre recherche"
+  },
+  "beaches-directory": {
+    "directoryTitle2": "Répertoire des Plages Canines",
+    "mainTitle": "Plages Canines",
+    "countLabel": "Plages Disponibles",
+    "sourceInfo": "Informations mises à jour",
+    "searchPlaceholder": "Rechercher par nom ou municipalité (ex : Málaga, Vélez...)",
+    "searchLabel": "Rechercher des plages canines",
+    "itemName": "plage canine",
+    "itemNamePlural": "plages canines",
+    "noResultsSearch": "Aucune plage trouvée correspondant à votre recherche",
+    "errorTitle": "Erreur lors du chargement des plages",
+    "emptyDescription": "Il n'y a pas de plages canines disponibles en ce moment",
+    "emptyTitle": "Aucune plage trouvée",
+    "retry": "Réessayer"
+  },
+  "search-results-info": {
+    "showingResults": "Affichage",
+    "of": "sur",
+    "for": "pour",
+    "allResults": "tous les résultats"
+  },
+  "blog": {
+    "content": {
+      "latest": {
+        "title": "Dernières Publications",
+        "subtitle": "Découvrez les dernières actualités, conseils et tendances dans le monde des soins aux animaux"
+      },
+      "category": {
+        "title": "Explorer par Catégorie",
+        "subtitle": "Trouvez du contenu spécifique organisé par thèmes qui vous intéressent",
+        "noPosts": "Il n'y a pas encore d'articles dans cette catégorie.",
+        "article": "article",
+        "articles": "articles"
+      },
+      "archive": {
+        "title": "Bibliothèque du Blog",
+        "subtitle": "Toute notre bibliothèque de contenu en un seul endroit",
+        "article": "article",
+        "articles": "articles"
+      },
+      "author": {
+        "allArticles": "Tous les articles de "
+      },
+      "blogSectionTitle": "Dernières publications",
+      "viewAllPosts": "Tous les articles",
+      "relatedPosts": "Articles similaires",
+      "lastPost": "Dernier article",
+      "backToBlog": "Retour au blog",
+      "minReader": "min de lecture",
+      "noContent": "Aucun article disponible",
+      "noPosts": "Aucun article disponible",
+      "all": "Tous"
+    },
+    "category": {
+      "heroTitle": "Explorer par Catégorie",
+      "heroSubtitle": "Trouvez des articles selon vos intérêts",
+      "allCategories": "Toutes les catégories",
+      "postsInCategory": "Articles dans la catégorie '{category}'",
+      "noPosts": "Il n'y a pas d'articles dans cette catégorie",
+      "loadMore": "Charger plus d'articles",
+      "endOfList": "Vous avez atteint la fin de la liste",
+      "article": "article",
+      "articles": "articles",
+      "resultsCount": "dans cette catégorie"
+    },
+    "card": {
+      "readProfile": "Voir le profil"
+    },
+    "sharePost": {
+      "shareText": "Partager cet article :"
+    }
+  },
+  "loading": {
+    "title": "Chargement...",
+    "description": "Veuillez patienter un instant"
+  },
+  "notFound": {
+    "title": "Page non trouvée",
+    "description": "La page que vous cherchez n'existe pas.",
+    "back": "Retour à l'accueil"
+  },
+  "error": {
+    "title": "Quelque chose s'est mal passé",
+    "description": "Une erreur inattendue s'est produite.",
+    "retry": "Réessayer"
+  },
+  "footer": {
+    "sections": {
+      "resources": {
+        "title": "Ressources"
+      },
+      "blog": {
+        "title": "Blog"
+      },
+      "legal": {
+        "title": "Légal"
+      }
+    },
+    "contact": {
+      "title": "Contact",
+      "emailLabel": "Envoyer un email à MálagaPets"
+    },
+    "social": {
+      "followUs": "Suivez-nous :"
+    },
+    "copyright": "Tous droits réservés.",
+    "legal_links": {
+      "privacity": "Confidentialité",
+      "terms": "Conditions d'utilisation",
+      "cookies": "Cookies"
+    },
+    "credit": {
+      "madeWith": "Réalisé avec",
+      "by": "par",
+      "author": "Nuria"
+    }
+  },
+  "legal": {
+    "subtitle": "Políticas y términos",
+    "privacy": {
+      "title": "Politique de Confidentialité",
+      "lastUpdate": "Dernière mise à jour",
+      "text": "MálagaPets est un projet personnel. Nous ne collectons pas de données personnelles. Nous n'utilisons pas d'analytique ou de suivi. Seule Google Search Console reçoit des informations sur l'indexation du site."
+    },
+    "cookies": {
+      "title": "Politique relative aux Cookies",
+      "lastUpdate": "Dernière mise à jour",
+      "noteText": "Note importante",
+      "text": "Nous utilisons uniquement les cookies essentiels pour le fonctionnement : langue et consentement. Il n'y a pas de cookies de suivi ou d'analyse."
+    },
+    "terms": {
+      "title": "Conditions Générales d'Utilisation",
+      "lastUpdate": "Dernière mise à jour",
+      "intro": "MálagaPets est un projet personnel informatif. © 2026 MálagaPets. Il est interdit de copier ou de reproduire le contenu sans permission. Les informations sont fournies telles quelles sans garanties.",
+      "dataSources": {
+        "title": "Sources de Données",
+        "description": "Les données que vous trouverez sur MálagaPets proviennent de sources officielles et publiques :",
+        "parks": "Parcs pour Chiens : Portail des Données Ouvertes de la Mairie de Málaga (https://datosabiertos.malaga.eu)",
+        "veterinary": "Vétérinaires : Ordre Officiel des Vétérinaires de Málaga (https://colegioveterinariosmalaga.es/)",
+        "beaches": "Plages : Municipalités locales de la province de Málaga"
+      },
+      "noteHeading": "Note de Précaution",
+      "note": "Vérifiez toujours auprès des sources originales avant d'utiliser les données."
+    }
+  }
+}

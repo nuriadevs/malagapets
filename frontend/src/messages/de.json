@@ -1,0 +1,593 @@
+{
+  "app": {
+    "title": "MálagaPets"
+  },
+  "metadata": {
+    "title": "MálagaPets - Vollständiger Haustierführer in Málaga",
+    "description": "Ihr vollständiger Führer für Haustiere in Málaga: Finden Sie Hundeparks, Tierarztpraxen, Notfallkliniken, Pflegetipps und tierfreundliche Ressourcen in Ihrer Nähe."
+  },
+  "directoryMeta": {
+    "beaches": {
+      "title": "Hundestrände in Málaga",
+      "description": "Alle Hundestrände in Málaga und an der Costa del Sol: Lage, Zugangssaison, Regeln und Services auf einer interaktiven Karte."
+    },
+    "parks": {
+      "title": "Hundeparks in Málaga",
+      "description": "Finde die Hundeparks in Málaga: eingezäunte Bereiche, Schatten, Wasserbrunnen und Services, alles auf einer interaktiven Karte."
+    },
+    "veterinary": {
+      "title": "Tierärzte in Málaga",
+      "description": "Verzeichnis der Tierkliniken in Málaga: Lage, Öffnungszeiten, 24h-Notdienst und Fachgebiete, mit interaktiver Karte."
+    }
+  },
+  "theme": {
+    "toggleTheme": "Design wechseln",
+    "options": [
+      {
+        "key": "light",
+        "label": "Hell",
+        "value": "light"
+      },
+      {
+        "key": "dark",
+        "label": "Dunkel",
+        "value": "dark"
+      },
+      {
+        "key": "system",
+        "label": "System",
+        "value": "system"
+      }
+    ]
+  },
+  "pagination": {
+    "previousPage": "Zurück",
+    "nextPage": "Weiter",
+    "page": "Seite",
+    "of": "von"
+  },
+  "accessibility": {
+    "pagination": {
+      "navigation": "Paginierungsnavigation",
+      "previousPage": "Zur vorherigen Seite",
+      "nextPage": "Zur nächsten Seite"
+    },
+    "header": {
+      "headerLabel": "Hauptkopfzeile",
+      "navigationToolbar": "Navigationssteuerelemente"
+    },
+    "settingsPanel": {
+      "openSettings": "Einstellungen öffnen",
+      "closeSettings": "Einstellungen schließen",
+      "settingsTitle": "Einstellungen",
+      "settingsDescription": "Erscheinungsbild und Sprache anpassen",
+      "themeFieldset": "Design",
+      "textLanguage": "Sprache",
+      "settingsNote": "Änderungen werden automatisch übernommen"
+    },
+    "footer": {
+      "explorer": "Kartennavigation erkunden",
+      "blogNav": "Blog-Navigation",
+      "legalNav": "Rechtliche Navigation",
+      "socialNav": "Soziale Medien",
+      "homeLink": "{title} — Zur Startseite"
+    },
+    "explorer": {
+      "map": "Interaktive Karte von Málaga",
+      "filterByType": "Nach Typ filtern",
+      "pagination": "Orte-Paginierung",
+      "sidebarLabel": "Ortsliste",
+      "sidebarListLabel": "Orte"
+    },
+    "skipToContent": "Zum Inhalt springen",
+    "card": {
+      "viewOnMaps": "In Google Maps anzeigen"
+    },
+    "directory": {
+      "loading-directory": "Verzeichnisinformationen werden geladen…",
+      "loading": "Informationen werden geladen"
+    },
+    "beaches-directory": {
+      "name": "Abschnitt Tierfreundliche Strandliste",
+      "loading": "Strände werden geladen...",
+      "centersList": "Liste der tierfreundlichen Strände",
+      "paginationAriaLabel": "Strand-Navigation"
+    },
+    "parks-directory": {
+      "name": "Abschnitt Hundepark-Verzeichnis",
+      "loading": "Parks werden geladen...",
+      "centersList": "Liste der Hundeparks",
+      "paginationAriaLabel": "Hundepark-Navigation"
+    },
+    "vets-directory": {
+      "name": "Abschnitt Tierarzt-Verzeichnis",
+      "loading": "Kliniken werden geladen...",
+      "centersList": "Liste der Tierkliniken und -krankenhäuser",
+      "paginationAriaLabel": "Navigation der Tierkliniken"
+    },
+    "blog": {
+      "main": "Blog-Startseite",
+      "post": "Blog-Beitrag",
+      "readingProgress": "Lesefortschritt",
+      "viewAuthorProfile": "Profil von {name} anzeigen",
+      "articleTags": "Artikel-Tags"
+    },
+    "search": {
+      "main": "Im Blog suchen"
+    },
+    "categories": {
+      "main": "Blog-Kategorien Hauptseite",
+      "categoriesList": "Blog-Kategorieliste"
+    },
+    "category": {
+      "main": "Blog-Kategorie-Seite"
+    },
+    "author": {
+      "main": "Blog-Autorenseite"
+    },
+    "sharePost": {
+      "facebook": "Auf Facebook teilen",
+      "linkedin": "Auf LinkedIn teilen",
+      "whatsapp": "Auf WhatsApp teilen",
+      "telegram": "Auf Telegram teilen"
+    },
+    "button": {
+      "clearAriaLabel": "Suche löschen"
+    },
+    "main": {
+      "homeContent": "Startseite",
+      "archive": "Blog-Archiv",
+      "parksCardsContent": "Hundepark-Führer in Málaga",
+      "vetsCardsContent": "Leitfaden für Tierkliniken und -krankenhäuser in Málaga",
+      "beachesCardsContent": "Haustierfreundlicher Strand-Führer in Málaga",
+      "legal": "Rechtliche Texte",
+      "privacyPolicy": "Datenschutzrichtlinie",
+      "cookiesPolicy": "Cookie-Richtlinie",
+      "terms": "Allgemeine Geschäftsbedingungen"
+    },
+    "loading": {
+      "main": "Ladebildschirm",
+      "loadingStatus": "Ladestatus",
+      "loadingText": "Ladetext",
+      "loadingProgress": "Ladefortschritt"
+    }
+  },
+  "search": {
+    "title": "Artikel suchen",
+    "subtitle": "Finden Sie Artikel über Haustiere, Strände, Ratgeber und mehr",
+    "resultsFor": "Ergebnisse für \"{query}\"",
+    "resultsCount": "{count} {articles} gefunden",
+    "article": "Artikel",
+    "articles": "Artikel",
+    "searchTerm": "Suche",
+    "emptyState": {
+      "title": "Wonach suchen Sie?",
+      "description": "Geben Sie etwas in das Suchfeld ein, um Artikel zu finden"
+    },
+    "noResults": {
+      "title": "Keine Ergebnisse",
+      "description": "Es wurden keine Artikel gefunden, die Ihrer Suche entsprechen. Versuchen Sie andere Begriffe."
+    },
+    "form": {
+      "ariaLabel": "Artikelsuchformular",
+      "placeholder": "Artikel suchen...",
+      "inputAriaLabel": "Artikel nach Titel oder Thema suchen",
+      "clearAriaLabel": "Suche löschen"
+    }
+  },
+  "navigation": {
+    "mainNav": "Hauptnavigation",
+    "currentPage": "(aktuelle Seite)",
+    "home": "Startseite",
+    "explorer": "Erkunden",
+    "directory": "Verzeichnis",
+    "guide": "Ratgeber",
+    "legal": "Rechtliches",
+    "privacity": "Privatsphäre",
+    "cookies": "Cookies",
+    "terms": "Bedingungen",
+    "parks": "Hundeparks",
+    "veterinary": "Tierärzte",
+    "beaches": "Strände",
+    "blog": "Blog",
+    "allPosts": "Alle Artikel",
+    "categories": "Kategorien",
+    "search": "Suche",
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schließen",
+    "menuOpened": "Menü geöffnet",
+    "menuClosed": "Menü geschlossen",
+    "mobileNav": "Mobile Navigation",
+    "changeLanguage": "Sprache ändern",
+    "links": [
+      {
+        "key": "home",
+        "href": "/",
+        "labelKey": "home"
+      },
+      {
+        "key": "explorer",
+        "href": "/explorer",
+        "labelKey": "explorer"
+      },
+      {
+        "key": "directory",
+        "href": "/directory",
+        "labelKey": "directory",
+        "submenu": [
+          {
+            "key": "veterinary",
+            "href": "/directory/veterinary",
+            "labelKey": "veterinary",
+            "icon": "stethoscope",
+            "descriptionKey": "veterinaryDesc"
+          },
+          {
+            "key": "parks",
+            "href": "/directory/parks",
+            "labelKey": "parks",
+            "icon": "trees",
+            "descriptionKey": "parksDesc"
+          },
+          {
+            "key": "beaches",
+            "href": "/directory/beaches",
+            "labelKey": "beaches",
+            "icon": "wave-sine",
+            "descriptionKey": "beachesDesc"
+          }
+        ]
+      },
+      {
+        "key": "blog",
+        "href": "/blog",
+        "labelKey": "blog",
+        "submenu": [
+          {
+            "key": "allPosts",
+            "href": "/blog",
+            "labelKey": "allPosts"
+          },
+          {
+            "key": "categories",
+            "href": "/blog/categories",
+            "labelKey": "categories"
+          },
+          {
+            "key": "search",
+            "href": "/blog/search",
+            "labelKey": "search"
+          }
+        ]
+      },
+      {
+        "key": "legal",
+        "href": "/legal",
+        "labelKey": "legal",
+        "submenu": [
+          {
+            "key": "privacy",
+            "href": "/legal/privacy",
+            "labelKey": "privacity"
+          },
+          {
+            "key": "terms",
+            "href": "/legal/terms",
+            "labelKey": "terms"
+          },
+          {
+            "key": "cookies",
+            "href": "/legal/cookies",
+            "labelKey": "cookies"
+          }
+        ]
+      }
+    ]
+  },
+  "homepage": {
+    "title": "MálagaPets",
+    "subtitle": {
+      "part1": "Alles, was Ihre ",
+      "highlight": "Haustiere",
+      "part2": " brauchen: Räume, Dienste und Gemeinschaft an einem Ort"
+    }
+  },
+  "mission": {
+    "heading": "Unsere Mission",
+    "cards": [
+      {
+        "title": "Tierwohl",
+        "description": "Die Gesundheit, das Glück und die umfassende Pflege aller Haustiere in unserer Gemeinschaft fördern"
+      },
+      {
+        "title": "Soziale Verbindung",
+        "description": "Räume und Dienstleistungen schaffen, die Tierliebhaber zusammenbringen und den Gemeinschaftssinn stärken"
+      },
+      {
+        "title": "Tierfreundlich",
+        "description": "Dazu beitragen, dass Málaga eine inklusivere und einladendere Stadt für alle Haustiere und ihre Familien wird"
+      }
+    ]
+  },
+  "discover": {
+    "label": "Blog",
+    "title": "Neueste Artikel",
+    "cta": "Alle Artikel anzeigen"
+  },
+  "explorer": {
+    "badge": "Tierfreundlicher Entdecker",
+    "title": "Erkunden Sie Málaga",
+    "titleHighlight": "mit Ihrem Haustier",
+    "subtitle": "Hundeparks, Strände und Tierärzte auf einer interaktiven Karte",
+    "cards": {
+      "map": "Karte anzeigen"
+    },
+    "mapPages": {
+      "noName": "Kein Name",
+      "placesFound": "Gefundene Orte",
+      "all": "Alle Orte",
+      "loading": "Laden",
+      "noParks": "Keine Parks",
+      "noBeaches": "Keine Strände",
+      "noVets": "Keine Tierärzte",
+      "parks": {
+        "title": "Hundeparks"
+      },
+      "beaches": {
+        "title": "Hundestrände"
+      },
+      "veterinary": {
+        "title": "Tierärzte",
+        "hospital": "Tierkrankenhaus",
+        "clinic": "Tierklinik"
+      }
+    },
+    "geolocation": {
+      "youAreHere": "Ihr aktueller Standort",
+      "button": "Entfernung von meinem Standort anzeigen",
+      "loading": "Standort wird ermittelt...",
+      "active": "Entfernungen aktiviert",
+      "clear": "Entfernungen deaktivieren",
+      "denied": "Ihr Standort konnte nicht ermittelt werden. Überprüfen Sie Ihre Browserberechtigungen."
+    }
+  },
+  "mapHighlight": {
+    "label": "Interaktive Karte",
+    "title": "Tierfreundliche Ressourcen auf einer einzigen Karte",
+    "description": "Hundeparks, Strände und Tierärzte in Málaga auf einer interaktiven Karte. Überprüfen Sie Dienste, Öffnungszeiten und erhalten Sie Wegbeschreibungen von Ihrem Standort aus.",
+    "features": [
+      "Georeferenzierte Hundeparks, Strände und Tierärzte",
+      "Nach Ressourcentyp filtern und verfügbare Dienste einsehen",
+      "Verfügbar auf Spanisch, Englisch, Deutsch und Französisch"
+    ],
+    "cta": "Karte erkunden",
+    "mapLabel": "Interaktive Karte von Málaga",
+    "floatingCard": {
+      "name": "Parque Huerta Nueva",
+      "detail": "Fläche · 1900 m²"
+    }
+  },
+  "data-cards": {
+    "adress": "Adresse",
+    "municipality": "Gemeinde",
+    "location": "Standort",
+    "dimensions": "Abmessungen",
+    "email": "E-Mail",
+    "website": "Webseite",
+    "length": "Länge",
+    "area": "Fläche",
+    "summerSchedule": "Sommer",
+    "winterSchedule": "Winter",
+    "year_round": "Ganzjährig geöffnet",
+    "services": "Dienste",
+    "certifications": "Zertifizierungen",
+    "highlights": "Highlights",
+    "dogShower": "Hundedusche",
+    "waterFountain": "Trinkbrunnen",
+    "trashBins": "Mülleimer",
+    "parking": "Parkplatz",
+    "agilityArea": "Agility-Bereich",
+    "bagDispenser": "Beutelspender",
+    "phone": {
+      "name": "Telefon",
+      "phones": "Telefone",
+      "emergency": "Notfall",
+      "landlineFull": "Festnetz",
+      "mobileFull": "Mobiltelefon"
+    },
+    "schedule": "Öffnungszeiten",
+    "schedules": "Öffnungszeiten",
+    "daysOpen": "Verfügbarkeit",
+    "accessibility": "Barrierefreiheit",
+    "accessible": "Barrierefrei",
+    "notAccessible": "Nicht barrierefrei",
+    "fountain": "Brunnen",
+    "available": "Verfügbar",
+    "notAvailableShort": "Nicht verfügbar",
+    "biZone": "Bi-Zone",
+    "postalCode": "Postleitzahl",
+    "viewInMaps": "In Google Maps anzeigen",
+    "yes": "Ja",
+    "no": "Nein",
+    "access": "Zugang",
+    "accessType": "Typ",
+    "accessByCar": "Mit dem Auto",
+    "accessReferences": "Referenzen",
+    "distanceFromCenter": "Entfernung vom Zentrum",
+    "accessRoad": "Zufahrtsstraße"
+  },
+  "veterinary-directory": {
+    "directoryTitle": "Offizielles Tierarztverzeichnis",
+    "clinic": "Tierklinik",
+    "hospital": "Tierkrankenhaus",
+    "mainTitle": "Veterinärzentren",
+    "countLabel": "Verfügbare Zentren",
+    "sourceInfo": "Aktualisierte Informationen der Offiziellen Tierärztekammer",
+    "errorTitle": "Fehler beim Laden der Zentren",
+    "retry": "Erneut versuchen",
+    "emptyTitle": "Keine Zentren gefunden",
+    "emptyDescription": "Derzeit sind keine Veterinärzentren verfügbar",
+    "reloadButton": "Daten neu laden",
+    "searchPlaceholder": "Nach Name, Adresse oder Typ suchen (z. B. Poliklinik, Krankenhaus...)",
+    "searchLabel": "Veterinärzentren suchen",
+    "itemName": "Veterinärzentrum",
+    "itemNamePlural": "Veterinärzentren",
+    "noResultsSearch": "Keine Veterinärzentren gefunden, die Ihrer Suche entsprechen"
+  },
+  "parks-directory": {
+    "directoryTitle2": "Hundepark-Verzeichnis",
+    "mainTitle": "Hundeparks",
+    "countLabel": "Verfügbare Parks",
+    "sourceInfo": "Aktualisierte Informationen der Stadt Málaga",
+    "searchPlaceholder": "Parks nach Name, Adresse suchen...",
+    "searchLabel": "Hundeparks suchen",
+    "itemName": "Hundepark",
+    "itemNamePlural": "Hundeparks",
+    "noResultsSearch": "Keine Parks gefunden, die Ihrer Suche entsprechen"
+  },
+  "beaches-directory": {
+    "directoryTitle2": "Hundestrand-Verzeichnis",
+    "mainTitle": "Hundestrände",
+    "countLabel": "Verfügbare Strände",
+    "sourceInfo": "Aktualisierte Informationen",
+    "searchPlaceholder": "Nach Name oder Gemeinde suchen (z. B. Málaga, Vélez...)",
+    "searchLabel": "Hundestrände suchen",
+    "itemName": "Hundestrand",
+    "itemNamePlural": "Hundestrände",
+    "noResultsSearch": "Keine Strände gefunden, die Ihrer Suche entsprechen",
+    "errorTitle": "Fehler beim Laden der Strände",
+    "emptyDescription": "Derzeit sind keine Hundestrände verfügbar",
+    "emptyTitle": "Keine Strände gefunden",
+    "retry": "Erneut versuchen"
+  },
+  "search-results-info": {
+    "showingResults": "Anzeige",
+    "of": "von",
+    "for": "für",
+    "allResults": "alle Ergebnisse"
+  },
+  "blog": {
+    "content": {
+      "latest": {
+        "title": "Neueste Beiträge",
+        "subtitle": "Entdecken Sie die neuesten Nachrichten, Tipps und Trends in der Welt der Haustierpflege"
+      },
+      "category": {
+        "title": "Nach Kategorie erkunden",
+        "subtitle": "Finden Sie spezifische Inhalte, die nach Themen organisiert sind, die Sie interessieren",
+        "noPosts": "Es gibt noch keine Artikel in dieser Kategorie.",
+        "article": "Artikel",
+        "articles": "Artikel"
+      },
+      "archive": {
+        "title": "Blog-Bibliothek",
+        "subtitle": "Unsere gesamte Inhaltsbibliothek an einem Ort",
+        "article": "Artikel",
+        "articles": "Artikel"
+      },
+      "author": {
+        "allArticles": "Alle Artikel von "
+      },
+      "blogSectionTitle": "Neueste Beiträge",
+      "viewAllPosts": "Alle Beiträge",
+      "relatedPosts": "Ähnliche Artikel",
+      "lastPost": "Letzter Beitrag",
+      "backToBlog": "Zurück zum Blog",
+      "minReader": "Min. Lesezeit",
+      "noContent": "Keine Artikel verfügbar",
+      "noPosts": "Keine Artikel verfügbar",
+      "all": "Alle"
+    },
+    "category": {
+      "heroTitle": "Nach Kategorie erkunden",
+      "heroSubtitle": "Finden Sie Artikel nach Ihren Interessen",
+      "allCategories": "Alle Kategorien",
+      "postsInCategory": "Artikel in der Kategorie '{category}'",
+      "noPosts": "Es gibt keine Artikel in dieser Kategorie",
+      "loadMore": "Weitere Artikel laden",
+      "endOfList": "Sie haben das Ende der Liste erreicht",
+      "article": "Artikel",
+      "articles": "Artikel",
+      "resultsCount": "in dieser Kategorie"
+    },
+    "card": {
+      "readProfile": "Profil anzeigen"
+    },
+    "sharePost": {
+      "shareText": "Diesen Artikel teilen:"
+    }
+  },
+  "loading": {
+    "title": "Wird geladen...",
+    "description": "Bitte warten Sie einen Moment"
+  },
+  "notFound": {
+    "title": "Seite nicht gefunden",
+    "description": "Die gesuchte Seite existiert nicht.",
+    "back": "Zurück zur Startseite"
+  },
+  "error": {
+    "title": "Etwas ist schief gelaufen",
+    "description": "Ein unerwarteter Fehler ist aufgetreten.",
+    "retry": "Erneut versuchen"
+  },
+  "footer": {
+    "sections": {
+      "resources": {
+        "title": "Ressourcen"
+      },
+      "blog": {
+        "title": "Blog"
+      },
+      "legal": {
+        "title": "Rechtliches"
+      }
+    },
+    "contact": {
+      "title": "Kontakt",
+      "emailLabel": "Senden Sie eine E-Mail an MálagaPets"
+    },
+    "social": {
+      "followUs": "Folgen Sie uns:"
+    },
+    "copyright": "Alle Rechte vorbehalten.",
+    "legal_links": {
+      "privacity": "Datenschutz",
+      "terms": "Nutzungsbedingungen",
+      "cookies": "Cookies"
+    },
+    "credit": {
+      "madeWith": "Entwickelt mit",
+      "by": "von",
+      "author": "Nuria"
+    }
+  },
+  "legal": {
+    "subtitle": "Richtlinien und Bedingungen",
+    "privacy": {
+      "title": "Datenschutzrichtlinie",
+      "lastUpdate": "Zuletzt aktualisiert",
+      "text": "MálagaPets ist ein persönliches Projekt. Wir erfassen keine persönlichen Daten. Wir verwenden keine Analytik oder Tracking. Nur Google Search Console erhält Informationen über die Indexierung der Website."
+    },
+    "cookies": {
+      "title": "Cookie-Richtlinie",
+      "lastUpdate": "Zuletzt aktualisiert",
+      "noteText": "Wichtige Anmerkung",
+      "text": "Wir verwenden nur wesentliche Cookies für die Funktionalität: Sprache und Zustimmung. Es gibt keine Tracking- oder Analyse-Cookies."
+    },
+    "terms": {
+      "title": "Allgemeine Geschäftsbedingungen",
+      "lastUpdate": "Zuletzt aktualisiert",
+      "intro": "MálagaPets ist ein persönliches Informationsprojekt. © 2026 MálagaPets. Das Kopieren oder Reproduzieren von Inhalten ohne Genehmigung ist nicht gestattet. Informationen werden wie besehen ohne Garantien bereitgestellt.",
+      "dataSources": {
+        "title": "Datenquellen",
+        "description": "Die Daten, die Sie auf MálagaPets finden, stammen aus offiziellen und öffentlichen Quellen:",
+        "parks": "Hundepark: Offenes Datenportal der Stadt Málaga (https://datosabiertos.malaga.eu)",
+        "veterinary": "Tierärzte: Offizieller Verband der Tierärzte von Málaga (https://colegioveterinariosmalaga.es/)",
+        "beaches": "Strände: Gemeinden in der Provinz Málaga"
+      },
+      "noteHeading": "Warnhinweis",
+      "note": "Überprüfen Sie immer die ursprünglichen Quellen, bevor Sie die Daten verwenden."
+    }
+  }
+}

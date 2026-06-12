@@ -1,0 +1,18 @@
+{
+  "documentId": "le40468f89x8aiq7dbxz8uyo",
+  "name": "Équipe MálagaPets",
+  "email": "info@malagapets.com",
+  "slug": "equipo-malaga-pets",
+  "locale": "fr",
+  "bio": "Nous découvrons des lieux pet-friendly et partageons tout le nécessaire pour le bien-être de votre animal de compagnie.",
+  "avatar": {
+    "url": "https://res.cloudinary.com/dnxxhni9k/image/upload/v1764793123/malagapets/small_dog_with_glasses_467f6aec1b.jpg",
+    "alternativeText": "chien avec lunettes et ipad",
+    "width": 500,
+    "height": 334
+  },
+  "seo": {
+    "metaTitle": "Équipe MálagaPets - Guide Pet-Friendly",
+    "metaDescription": "Nous découvrons et partageons les meilleurs lieux pet-friendly pour le bien-être de votre animal."
+  }
+}

@@ -1,0 +1,33 @@
+packages:
+  - "frontend"
+  - "backend"
+
+allowBuilds:
+  '@parcel/watcher': true
+  '@swc/core': true
+  sharp: true
+  unrs-resolver: true
+
+catalog:
+  # Framework
+  next: 16.2.6
+  react: 19.2.4
+  react-dom: 19.2.4
+
+  # MDX
+  next-mdx-remote: ^6.0.0
+  remark-gfm: ^4.0.1
+
+  # Styling
+  tailwindcss: ^4
+  "@tailwindcss/postcss": ^4
+
+  # Types
+  typescript: ^5
+  "@types/node": ^20
+  "@types/react": ^19
+  "@types/react-dom": ^19
+
+  # Linting
+  eslint: ^9
+  eslint-config-next: 16.2.6
