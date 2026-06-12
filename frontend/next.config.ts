@@ -6,29 +6,6 @@ const withNextIntl = createNextIntlPlugin("./src/i18n/request.ts");
 const isProd = process.env.NODE_ENV === "production";
 const isBuild = process.env.npm_lifecycle_script?.includes("next build");
 
-// ─────────────────────────────────────────────────────────────
-// CONTENT SECURITY POLICY
-// ─────────────────────────────────────────────────────────────
-const csp = [
-  "default-src 'self'",
-  "script-src 'self' 'unsafe-eval' 'unsafe-inline'",
-  "style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com",
-  "img-src 'self' data: blob: https:",
-  "font-src 'self' https://cdnjs.cloudflare.com",
-  "connect-src 'self' ws: wss:",
-  "media-src 'self'",
-  "frame-src 'none'",
-  "object-src 'none'",
-  "base-uri 'self'",
-  "form-action 'self'",
-  isProd ? "upgrade-insecure-requests" : "",
-]
-  .filter(Boolean)
-  .join("; ");
-
-// ─────────────────────────────────────────────────────────────
-// NEXT CONFIG
-// ─────────────────────────────────────────────────────────────
 const nextConfig: NextConfig = {
   images: {
     formats: ["image/avif", "image/webp"],
@@ -51,7 +28,6 @@ const nextConfig: NextConfig = {
     ],
   },
 
-  // ── Headers de seguridad ──────────────────────────────────
   async headers() {
     return [
       {
@@ -60,7 +36,7 @@ const nextConfig: NextConfig = {
           {
             key: "Content-Security-Policy",
             value: [
-              "connect-src 'self' https://www.google-analytics.com https://analytics.google.com https://region1.google-analytics.com https://region1.analytics.google.com https://*.google-analytics.com https://*.analytics.google.com https://stats.g.doubleclick.net https://www.googletagmanager.com https://*.media.strapiapp.com https://res.cloudinary.com https://backend-pets-u2de.onrender.com https://*.tile.openstreetmap.org https://*.basemaps.cartocdn.com https://unpkg.com https://cdn.jsdelivr.net https://cdnjs.cloudflare.com https://api.mapbox.com http://localhost:1337 http://localhost:3001 ws://localhost:3001",
+              "connect-src 'self' https://api.malagapets.com https://www.google-analytics.com https://analytics.google.com https://region1.google-analytics.com https://region1.analytics.google.com https://*.google-analytics.com https://*.analytics.google.com https://stats.g.doubleclick.net https://www.googletagmanager.com https://*.media.strapiapp.com https://res.cloudinary.com https://backend-pets-u2de.onrender.com https://*.tile.openstreetmap.org https://*.basemaps.cartocdn.com https://unpkg.com https://cdn.jsdelivr.net https://cdnjs.cloudflare.com https://api.mapbox.com http://localhost:1337 http://localhost:3001 ws://localhost:3001",
               "default-src 'self'",
               "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com https://ssl.google-analytics.com https://unpkg.com https://cdn.jsdelivr.net https://cdnjs.cloudflare.com https://api.mapbox.com",
               "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://unpkg.com https://cdn.jsdelivr.net https://cdnjs.cloudflare.com https://api.mapbox.com https://use.fontawesome.com",
@@ -158,7 +134,6 @@ const nextConfig: NextConfig = {
     ];
   },
 
-  // ── Source maps ───────────────────────────────────────────
   productionBrowserSourceMaps: false,
 
   webpack: (config, { dev }) => {
@@ -170,7 +145,6 @@ const nextConfig: NextConfig = {
     return config;
   },
 
-  // ── Experimental ─────────────────────────────────────────
   experimental: {
     webpackMemoryOptimizations: true,
     webpackBuildWorker: true,
