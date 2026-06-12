@@ -1,5 +1,5 @@
 export const API_URL =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3001";
+  process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:3001";
 
 // Rutas internas Next.js (parks fetch interno)
 export const INTERNAL_URL = process.env.VERCEL_URL
