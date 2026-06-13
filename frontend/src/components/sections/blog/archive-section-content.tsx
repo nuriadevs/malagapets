@@ -3,6 +3,7 @@
 import { Suspense } from "react"
 import { useTranslations } from "next-intl"
 import Link from "next/link"
+import { FileText as FileTextIcon } from "@/data/icons"
 import { Button } from "@/components/ui/button"
 import { ContentLayout } from "@/components/common/content-layout-section"
 import { LoadingContent } from "@/components/ui/loading-content"
@@ -37,6 +38,7 @@ export default function ArchiveSectionContent({
           </p>
           {totalPosts > 0 && (
             <span className="badge badge-pet" aria-label={`${totalPosts} ${totalPosts === 1 ? t("archive.article") : t("archive.articles")}`}>
+              <FileTextIcon className="w-3.5 h-3.5" aria-hidden="true" />
               {totalPosts}{" "}
               {totalPosts === 1
                 ? t("archive.article")
