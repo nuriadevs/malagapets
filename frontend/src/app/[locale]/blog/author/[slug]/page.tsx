@@ -73,5 +73,5 @@ export default async function AuthorPage({ params, searchParams }: AuthorPagePro
     )
 }
 
-export const revalidate = 3600
+export const dynamic = "force-dynamic"
 export const dynamicParams = true

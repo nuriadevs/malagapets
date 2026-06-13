@@ -467,6 +467,7 @@
     "allResults": "all results"
   },
   "blog": {
+    "noArticles": "This author hasn't published any articles yet.",
     "content": {
       "latest": {
         "title": "Latest Posts",

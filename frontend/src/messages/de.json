@@ -467,6 +467,7 @@
     "allResults": "alle Ergebnisse"
   },
   "blog": {
+    "noArticles": "Dieser Autor hat noch keine Artikel veröffentlicht.",
     "content": {
       "latest": {
         "title": "Neueste Beiträge",
