@@ -8,7 +8,7 @@ Guía pet-friendly de Málaga: playas caninas, parques, veterinarios y blog con 
 
 <img src="./docs/screenshot.png" alt="MálagaPets — mapa interactivo" width="400">
 
-**🌐 Web:** [malagapets.com](https://malagapets.com/)  
+**🌐 Web:** [malagapets](https://malagapets.vercel.app/)  
 **📸 Instagram:** [@malagapets](https://www.instagram.com/malagapets/)
 
 ## ✨ Características
@@ -92,16 +92,16 @@ pnpm type-check   # comprobación de tipos de ambos paquetes
 
 **frontend/.env.local**
 
-| Variable               | Descripción                                        |
-| ---------------------- | -------------------------------------------------- |
-| `NEXT_PUBLIC_API_URL`  | URL del backend (`http://localhost:3001` en local) |
-| `NEXT_PUBLIC_SITE_URL` | URL pública del sitio (`https://malagapets.com`)   |
+| Variable               | Descripción                                              |
+| ---------------------- | -------------------------------------------------------- |
+| `NEXT_PUBLIC_API_URL`  | URL del backend (`http://localhost:3001` en local)       |
+| `NEXT_PUBLIC_SITE_URL` | URL pública del sitio (`https://malagapets.vercel.app/`) |
 
 **backend/.env.local**
 
-| Variable         | Descripción                                           |
-| ---------------- | ----------------------------------------------------- |
-| `ALLOWED_ORIGIN` | Origen permitido para CORS (`https://malagapets.com`) |
+| Variable         | Descripción                                                   |
+| ---------------- | ------------------------------------------------------------- |
+| `ALLOWED_ORIGIN` | Origen permitido para CORS (`https://malagapets.vercel.app/`) |
 
 ## ✍️ Añadir contenido
 
@@ -123,10 +123,10 @@ Los posts del blog son archivos **MDX** en `backend/content/posts/{idioma}/`:
 
 El monorepo se despliega como **dos proyectos en Vercel** desde el mismo repositorio:
 
-| Proyecto | Root Directory | Dominio              |
-| -------- | -------------- | -------------------- |
-| Frontend | `frontend`     | `malagapets.com`     |
-| Backend  | `backend`      | `api.malagapets.com` |
+| Proyecto | Root Directory | Dominio                              |
+| -------- | -------------- | ------------------------------------ |
+| Frontend | `frontend`     | `https://malagapets.vercel.app/`     |
+| Backend  | `backend`      | `https://malagapets-api.vercel.app/` |
 
 Cada push a `main` redespliega automáticamente.
 
