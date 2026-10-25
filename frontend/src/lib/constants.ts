@@ -3,5 +3,5 @@ export const SOCIAL = {
   instagram: "https://instagram.com/malagapets",
 };
 export const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://malagapets.com";
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://malagapets.vercel.app/";
 export const SITE_NAME = "MálagaPets";
