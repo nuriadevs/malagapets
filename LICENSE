@@ -1,21 +1,62 @@
-MIT License
+MálagaPets - Portfolio project
+Copyright (c) 2026 Nuria (nuriadevs). All rights reserved.
+Copyright (c) 2026 Nuria (nuriadevs). Todos los derechos reservados.
 
-Copyright (c) 2026 nuriadevs
+ENGLISH
+-------
+This repository is published for portfolio and evaluation purposes only.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+You MAY:
+  - View and read the source code.
+  - Fork the repository within GitHub, as permitted by GitHub's Terms of Service.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+You MAY NOT, without the author's prior written permission:
+  - Copy, reproduce, modify, or create derivative works of the code,
+    design, text, translations, or original content.
+  - Distribute, publish, sublicense, sell, or use the code or content
+    in any commercial or non-commercial project, product, or service.
+  - Use the name "MálagaPets", its logo, or its Instagram account
+    (@malagapets) in any way that suggests affiliation or endorsement.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+No license, express or implied, is granted except as stated above.
+
+THIRD-PARTY DATA
+Third-party data included or used by this project is NOT covered by
+this license and remains subject to its own terms. See DATA_SOURCES.md.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED. THE AUTHOR IS NOT LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
+LIABILITY ARISING FROM THE USE OF THE SOFTWARE OR THE INFORMATION
+PUBLISHED ON THE WEBSITE. Directory information (opening hours, phone
+numbers, addresses) may be outdated; verify it with each establishment.
+
+ESPAÑOL
+-------
+Este repositorio se publica únicamente con fines de portfolio y evaluación.
+
+PUEDES:
+  - Ver y leer el código fuente.
+  - Hacer un fork dentro de GitHub, según permiten sus Términos de Servicio.
+
+NO PUEDES, sin permiso previo y por escrito de la autora:
+  - Copiar, reproducir, modificar ni crear obras derivadas del código,
+    el diseño, los textos, las traducciones o el contenido original.
+  - Distribuir, publicar, sublicenciar, vender ni usar el código o el
+    contenido en ningún proyecto, producto o servicio, sea comercial o no.
+  - Usar el nombre "MálagaPets", su logotipo o su cuenta de Instagram
+    (@malagapets) de forma que sugiera afiliación o respaldo.
+
+No se concede ninguna licencia, expresa o implícita, salvo lo indicado.
+
+DATOS DE TERCEROS
+Los datos de terceros incluidos o utilizados por este proyecto NO están
+cubiertos por esta licencia y se rigen por sus propios términos.
+Consulta DATA_SOURCES.md.
+
+EL SOFTWARE SE PROPORCIONA "TAL CUAL", SIN GARANTÍA DE NINGÚN TIPO.
+LA AUTORA NO SERÁ RESPONSABLE DE NINGUNA RECLAMACIÓN O DAÑO DERIVADO DEL
+USO DEL SOFTWARE O DE LA INFORMACIÓN PUBLICADA EN LA WEB. Los datos del
+directorio (horarios, teléfonos, direcciones) pueden estar desactualizados;
+confírmalos con cada establecimiento.
+
+Contact / Contacto: TU_EMAIL@EJEMPLO.COM

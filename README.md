@@ -1,9 +1,6 @@
 # 🐾 MálagaPets
 
-[![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=next.js)](https://nextjs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-blue?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
-[![Deployed on Vercel](https://img.shields.io/badge/Vercel-black?logo=vercel)](https://vercel.com/)
+[Next.js](https://nextjs.org/) [TypeScript](https://www.typescriptlang.org/) [Tailwind CSS](https://tailwindcss.com/) [Deployed on Vercel](https://vercel.com/)
 
 > 🚧 **Proyecto en desarrollo activo** — el proyecto está en construcción continua. Se irán subiendo nuevas funcionalidades, mejoras de rendimiento y contenido de forma progresiva. Cualquier feedback es bienvenido.
 
@@ -21,33 +18,20 @@ Guía pet-friendly de Málaga: playas caninas, parques, veterinarios y blog con 
 - 📝 **Blog multiidioma** con guías, categorías, autores, archivo y búsqueda
 - 🌍 **4 idiomas** (es, en, fr, de) con rutas traducidas y SEO completo (hreflang, canonicals, sitemap)
 - 🌗 **Modo claro/oscuro** y diseño accesible (WCAG)
-- 📡 **Datos de fuentes oficiales**: Ayuntamiento de Málaga y Colegio Oficial de Veterinarios
+- 📡 **Datos**: Portal de Datos Abiertos del Ayuntamiento de Málaga y recopilación propia
 
 ## 🛠️ Stack
 
-Next.js 16 (App Router, Turbopack)
-
-TypeScript
-
-Tailwind CSS
-
-i18n
-
-next-intl (rutas localizadas)
-
-Leaflet
-
-Contenido
-
-MDX + JSON (file-based CMS)
-
-Gestor de paquetes
-
-pnpm (workspace/monorepo)
-
-Despliegue
-
-Vercel
+| Área               | Tecnología                         |
+| ------------------ | ---------------------------------- |
+| Framework          | Next.js 16 (App Router, Turbopack) |
+| Lenguaje           | TypeScript                         |
+| Estilos            | Tailwind CSS                       |
+| i18n               | next-intl (rutas localizadas)      |
+| Mapas              | Leaflet                            |
+| Contenido          | MDX + JSON (file-based CMS)        |
+| Gestor de paquetes | pnpm (workspace/monorepo)          |
+| Despliegue         | Vercel                             |
 
 ## 📁 Estructura del monorepo
 
@@ -65,6 +49,7 @@ malagapets/
 │   └── src/messages/    # Traducciones es/en/fr/de
 │
 └── pnpm-workspace.yaml
+
 
 ```
 
@@ -86,6 +71,7 @@ cp backend/.env.example backend/.env.local
 # 3. Arrancar backend + frontend en paralelo
 pnpm dev
 
+
 ```
 
 - Frontend: http://localhost:3000
@@ -99,33 +85,23 @@ pnpm build        # build de producción (backend primero, luego frontend)
 pnpm lint         # lint de ambos paquetes
 pnpm type-check   # comprobación de tipos de ambos paquetes
 
+
 ```
 
 ## 🔑 Variables de entorno
 
 **frontend/.env.local**
 
-Variable
-
-Descripción
-
-`NEXT_PUBLIC_API_URL`
-
-URL del backend (`http://localhost:3001` en local)
-
-`NEXT_PUBLIC_SITE_URL`
-
-URL pública del sitio (`https://malagapets.com`)
+| Variable               | Descripción                                        |
+| ---------------------- | -------------------------------------------------- |
+| `NEXT_PUBLIC_API_URL`  | URL del backend (`http://localhost:3001` en local) |
+| `NEXT_PUBLIC_SITE_URL` | URL pública del sitio (`https://malagapets.com`)   |
 
 **backend/.env.local**
 
-Variable
-
-Descripción
-
-`ALLOWED_ORIGIN`
-
-Origen permitido para CORS (`https://malagapets.com`)
+| Variable         | Descripción                                           |
+| ---------------- | ----------------------------------------------------- |
+| `ALLOWED_ORIGIN` | Origen permitido para CORS (`https://malagapets.com`) |
 
 ## ✍️ Añadir contenido
 
@@ -147,27 +123,20 @@ Los posts del blog son archivos **MDX** en `backend/content/posts/{idioma}/`:
 
 El monorepo se despliega como **dos proyectos en Vercel** desde el mismo repositorio:
 
-Root Directory
-
-Frontend
-
-`frontend`
-
-`malagapets.com`
-
-Backend
-
-`backend`
-
-`api.malagapets.com`
+| Proyecto | Root Directory | Dominio              |
+| -------- | -------------- | -------------------- |
+| Frontend | `frontend`     | `malagapets.com`     |
+| Backend  | `backend`      | `api.malagapets.com` |
 
 Cada push a `main` redespliega automáticamente.
 
 ## 📊 Fuentes de datos
 
-- **Parques caninos**: Portal de Datos Abiertos del Ayuntamiento de Málaga
-- **Veterinarios**: Colegio Oficial de Veterinarios de Málaga
-- **Playas caninas**: Ayuntamientos de la provincia de Málaga
+- **Parques caninos**: [Portal de Datos Abiertos del Ayuntamiento de Málaga](https://datosabiertos.malaga.eu/dataset/parques-caninos) (CC BY 4.0).
+- **Playas caninas**: recopilación propia a partir de información publicada por los ayuntamientos de la provincia.
+- **Veterinarios**: recopilación propia a partir de información pública de cada clínica.
+
+Detalle completo, licencias y atribuciones en [DATA_SOURCES.md](https://github.com/nuriadevs/malagapets/blob/main/DATA_SOURCES.md).
 
 ## 🤖 Herramientas de IA en el flujo de trabajo
 
@@ -177,11 +146,13 @@ Proyecto desarrollado con un flujo asistido por IA: Claude Code como apoyo para 
 
 ## 📄 Licencia
 
-© 2026 Nuria — Todos los derechos reservados.
+© 2026 Nuria. Todos los derechos reservados.
 
-El código fuente se comparte públicamente con fines de portfolio.
+Este repositorio se publica **solo con fines de portfolio** . Ver [LICENSE](https://github.com/nuriadevs/malagapets/blob/main/LICENSE).
+
+Los datos de terceros no están cubiertos por esta licencia y mantienen sus propios términos ([DATA_SOURCES.md](https://github.com/nuriadevs/malagapets/blob/main/DATA_SOURCES.md)).
 
 ---
 
 Desarrollado con ❤️ por **Nuria**  
-[![Instagram](https://img.shields.io/badge/@malagapets-E4405F?style=flat&logo=instagram&logoColor=white)](https://www.instagram.com/malagapets/)
+[Instagram](https://www.instagram.com/malagapets/)
