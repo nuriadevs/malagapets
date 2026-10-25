@@ -59,7 +59,7 @@ export default function Home() {
               <div>
                 <p className="text-sm text-zinc-500">Base URL</p>
                 <p className="mt-1 font-mono text-sm text-zinc-900 dark:text-zinc-100">
-                  https://api.malagapets.com
+                  https://malagapets-api.vercel.app
                 </p>
               </div>
 
